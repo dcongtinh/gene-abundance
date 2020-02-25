@@ -53,7 +53,6 @@ for dataset_name in dataset:
     command = 'python3 %s --save_para y --original_data_folder %s --data_name %s --run_time %d --algo_redu %s --new_dim %d --model %s --auto_v y --parent_folder_results %s --parent_folder_img %s --scale_mode %s --type_bin %s --num_bin %d --type_emb %s -z 255 --channel 3 --preprocess_img vgg16 --colormap %s' % (file_run, path_data, dataset_name, run_time, algo_redu, new_dim, model_v, res_folder, img_folder, scale_mode, type_bin, num_bin, type_emb, colormap)
     
     executeCommand(command)
-    exit()
     os.system('python3 %s -i %s -o %s' % (file_read_results, res_folder, res_folder))
 
 for dataset_name in dataset:
@@ -69,7 +68,6 @@ for dataset_name in dataset:
     command = 'python3 %s --save_para y --original_data_folder %s --data_name %s --run_time %d --algo_redu %s --new_dim %d --model %s --auto_v y --parent_folder_results %s --parent_folder_img %s --scale_mode %s --type_bin %s --num_bin %d --type_emb %s -z 255 --channel 1 --colormap custom' % (file_run, path_data, dataset_name, run_time, algo_redu, new_dim, model_v, res_folder, img_folder, scale_mode, type_bin, num_bin, type_emb)
     
     executeCommand(command)
-    exit()
     os.system('python3 %s -i %s -o %s' % (file_read_results, res_folder, res_folder))
 
 end_time = time.time()
