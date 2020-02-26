@@ -23,7 +23,7 @@ run_time = 10
 num_bin = 10
 type_bin = 'eqf'
 scale_mode = 'qtf'
-model_v = 'model_cnn'
+model_v = 'fc_model'
 
 cnt = 0
 def executeCommand(__command__):
