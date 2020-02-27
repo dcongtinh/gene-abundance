@@ -1,0 +1,406 @@
+{'type_run': 'learn', 'config_file': '', 'seed_value_begin': 1, 'search_already': 'y', 'cudaid': -3, 'gpu_memory_fraction': 0.0, 'rd_pr_seed': 'none', 'debug': 'n', 'check': 'n', 'grid_coef_time': 10, 'cv_coef_time': 4, 'coef_ini': 255.0, 'metric_selection': 'roc_auc', 'parent_folder_img': 'images', 'original_data_folder': '/home/ubuntu/data/', 'data_name': 'colgene', 'parent_folder_results': '/home/ubuntu/gene-families/experiment/results/fc_model/raw/', 'save_avg_run': 'n', 'save_labels': 'n', 'save_d': 'n', 'save_w': 'n', 'suff_fini': 'ok', 'save_rf': 'y', 'save_para': 'y', 'path_config_w': '', 'ext_data': '', 'save_entire_w': 'n', 'save_folds': 'y', 'sound_fini': 'n', 'n_folds': 10, 'test_ext': 'n', 'run_time': 10, 'whole_run_time': 1, 'preprocess_img': 'none', 'pretrained_w_path': '', 'test_size': 1.0, 'numfilters': 64, 'numlayercnn_per_maxpool': 1, 'nummaxpool': 1, 'dropout_cnn': 0.0, 'dropout_fc': 0.0, 'padding': 'n', 'filtersize': 3, 'poolsize': 2, 'model': 'fc_model', 'num_classes': 1, 'epoch': 500, 'learning_rate': -1.0, 'batch_size': 16, 'learning_rate_decay': 0.0, 'momentum': 0.0, 'optimizer': 'adam', 'loss_func': 'binary_crossentropy', 'e_stop': 5, 'e_stop_consec': 'consec', 'svm_c': 1.0, 'svm_kernel': 'linear', 'rf_n_estimators': 500, 'rf_max_features': -2, 'rf_max_depth': -1, 'knn_n_neighbors': 5, 'coeff': 1.0, 'orderf_fill': 'none', 'new_dim': 676, 'path_vis_learn': '', 'path_data_vis_learn': '', 'del0': 'n', 'lr_visual': 100.0, 'label_visual': '', 'iter_visual': 300, 'ini_visual': 'pca', 'method_lle': 'standard', 'eigen_solver': 'auto', 'cmap_vmin': 0.0, 'cmap_vmax': 1.0, 'scale_mode': '', 'n_quantile': 1000, 'min_scale': 0.0, 'max_scale': 1.0, 'min_v': 0.0, 'max_v': 1.0, 'num_bin': 10, 'auto_v': 'n', 'mode_pre_img': 'caffe', 'channel': 3, 'dim_img': -1, 'visualize_model': 'n', 'algo_redu': 'none', 'reduc_perle': 10, 'reduc_ini': 'pca', 'type_emb': 'raw', 'imp_fea': 'none', 'label_emb': 0, 'emb_data': '', 'type_bin': '', 'perlexity_neighbor': 5, 'n_components_emb': 2, 'shape_drawn': ',', 'fig_size': 0, 'point_size': 1.0, 'colormap': '', 'margin': 0.0, 'alpha_v': 1.0, 'recreate_img': 0}
+[]
+seed1 fold1/10###############seed1 fold1/10###############seed1 fold1/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.611++0.615++0.883++0.6++0.627++0.666++0.0++8.0++0.0++5.0++0.0++266.683++221.0
+seed1 fold2/10###############seed1 fold2/10###############seed1 fold2/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.676++0.615++0.907++1.0++0.591++0.585++0.0++8.0++0.0++5.0++0.0++893.536++500.0
+seed1 fold3/10###############seed1 fold3/10###############seed1 fold3/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.731++0.615++0.911++0.8++0.58++0.624++0.0++8.0++0.0++5.0++0.0++1503.544++500.0
+seed1 fold4/10###############seed1 fold4/10###############seed1 fold4/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.706++0.583++0.895++0.914++0.587++0.615++0.0++7.0++0.0++5.0++0.0++2288.996++500.0
+seed1 fold5/10###############seed1 fold5/10###############seed1 fold5/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.725++0.583++0.917++0.743++0.577++0.642++0.0++7.0++0.0++5.0++0.0++3049.825++500.0
+seed1 fold6/10###############seed1 fold6/10###############seed1 fold6/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.706++0.667++0.908++0.886++0.584++0.612++0.357++7.0++0.0++4.0++1.0++3800.8++500.0
+seed1 fold7/10###############seed1 fold7/10###############seed1 fold7/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.706++0.583++0.898++0.857++0.587++0.614++0.0++7.0++0.0++5.0++0.0++4564.311++500.0
+seed1 fold8/10###############seed1 fold8/10###############seed1 fold8/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.725++0.667++0.928++0.571++0.573++0.671++0.357++7.0++0.0++4.0++1.0++5020.788++500.0
+seed1 fold9/10###############seed1 fold9/10###############seed1 fold9/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.691++0.727++0.924++0.964++0.587++0.589++0.418++7.0++0.0++3.0++1.0++5477.964++500.0
+seed1 fold10/10###############seed1 fold10/10###############seed1 fold10/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.709++0.636++0.92++0.857++0.583++0.614++0.0++7.0++0.0++4.0++0.0++6061.087++500.0
+seed2 fold1/10###############seed2 fold1/10###############seed2 fold1/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.722++0.692++0.922++0.575++0.578++0.653++0.365++8.0++0.0++4.0++1.0++6695.128++500.0
+seed2 fold2/10###############seed2 fold2/10###############seed2 fold2/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.704++0.615++0.908++0.775++0.581++0.63++0.0++8.0++0.0++5.0++0.0++7306.098++500.0
+seed2 fold3/10###############seed2 fold3/10###############seed2 fold3/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.722++0.692++0.889++0.95++0.582++0.597++0.365++8.0++0.0++4.0++1.0++8102.756++500.0
+seed2 fold4/10###############seed2 fold4/10###############seed2 fold4/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.706++0.583++0.925++0.743++0.58++0.643++0.0++7.0++0.0++5.0++0.0++8836.317++500.0
+seed2 fold5/10###############seed2 fold5/10###############seed2 fold5/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.716++0.583++0.912++0.914++0.582++0.616++0.0++7.0++0.0++5.0++0.0++9429.242++500.0
+seed2 fold6/10###############seed2 fold6/10###############seed2 fold6/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.725++0.5++0.898++0.829++0.581++0.633++-0.255++6.0++1.0++5.0++0.0++10186.659++500.0
+seed2 fold7/10###############seed2 fold7/10###############seed2 fold7/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.706++0.583++0.909++0.771++0.581++0.627++0.0++7.0++0.0++5.0++0.0++10960.741++500.0
+seed2 fold8/10###############seed2 fold8/10###############seed2 fold8/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.697++0.667++0.916++0.943++0.586++0.603++0.357++7.0++0.0++4.0++1.0++11702.559++500.0
+seed2 fold9/10###############seed2 fold9/10###############seed2 fold9/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.718++0.636++0.908++0.929++0.585++0.588++0.0++7.0++0.0++4.0++0.0++12414.329++500.0
+seed2 fold10/10###############seed2 fold10/10###############seed2 fold10/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.727++0.636++0.91++0.607++0.582++0.635++0.0++7.0++0.0++4.0++0.0++13117.363++500.0
+seed3 fold1/10###############seed3 fold1/10###############seed3 fold1/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.694++0.692++0.918++0.9++0.587++0.588++0.365++8.0++0.0++4.0++1.0++13904.149++500.0
+seed3 fold2/10###############seed3 fold2/10###############seed3 fold2/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.722++0.615++0.909++0.75++0.582++0.624++0.0++8.0++0.0++5.0++0.0++14669.984++500.0
+seed3 fold3/10###############seed3 fold3/10###############seed3 fold3/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.722++0.615++0.901++0.875++0.583++0.603++0.0++8.0++0.0++5.0++0.0++15290.358++500.0
+seed3 fold4/10###############seed3 fold4/10###############seed3 fold4/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.706++0.667++0.898++0.914++0.584++0.6++0.357++7.0++0.0++4.0++1.0++16023.317++500.0
+seed3 fold5/10###############seed3 fold5/10###############seed3 fold5/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.725++0.583++0.913++0.886++0.581++0.634++0.0++7.0++0.0++5.0++0.0++16773.492++500.0
+seed3 fold6/10###############seed3 fold6/10###############seed3 fold6/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.725++0.667++0.916++0.829++0.581++0.622++0.357++7.0++0.0++4.0++1.0++17523.33++500.0
+seed3 fold7/10###############seed3 fold7/10###############seed3 fold7/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.706++0.583++0.899++0.886++0.584++0.62++0.0++7.0++0.0++5.0++0.0++18257.771++500.0
+seed3 fold8/10###############seed3 fold8/10###############seed3 fold8/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.716++0.5++0.922++0.657++0.576++0.65++-0.255++6.0++1.0++5.0++0.0++19016.083++500.0
+seed3 fold9/10###############seed3 fold9/10###############seed3 fold9/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.709++0.727++0.913++0.821++0.585++0.604++0.418++7.0++0.0++3.0++1.0++19691.358++500.0
+seed3 fold10/10###############seed3 fold10/10###############seed3 fold10/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.6++0.636++0.89++0.607++0.646++0.66++0.0++7.0++0.0++4.0++0.0++19879.514++131.0
+seed4 fold1/10###############seed4 fold1/10###############seed4 fold1/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.694++0.615++0.922++0.9++0.584++0.605++0.0++8.0++0.0++5.0++0.0++20630.002++500.0
+seed4 fold2/10###############seed4 fold2/10###############seed4 fold2/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.713++0.692++0.905++0.7++0.578++0.642++0.365++8.0++0.0++4.0++1.0++21349.223++500.0
+seed4 fold3/10###############seed4 fold3/10###############seed4 fold3/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.731++0.692++0.914++0.625++0.573++0.658++0.318++7.0++1.0++3.0++2.0++21964.466++500.0
+seed4 fold4/10###############seed4 fold4/10###############seed4 fold4/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.725++0.583++0.906++0.857++0.581++0.627++0.0++7.0++0.0++5.0++0.0++22649.315++500.0
+seed4 fold5/10###############seed4 fold5/10###############seed4 fold5/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.706++0.667++0.912++0.971++0.59++0.58++0.357++7.0++0.0++4.0++1.0++23329.658++500.0
+seed4 fold6/10###############seed4 fold6/10###############seed4 fold6/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.706++0.583++0.915++0.714++0.581++0.638++0.0++7.0++0.0++5.0++0.0++24014.398++500.0
+seed4 fold7/10###############seed4 fold7/10###############seed4 fold7/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.706++0.75++0.926++0.686++0.581++0.627++0.529++7.0++0.0++3.0++2.0++24676.955++500.0
+seed4 fold8/10###############seed4 fold8/10###############seed4 fold8/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.725++0.583++0.903++0.886++0.582++0.628++0.0++7.0++0.0++5.0++0.0++25343.032++500.0
+seed4 fold9/10###############seed4 fold9/10###############seed4 fold9/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.718++0.636++0.894++1.0++0.588++0.595++0.0++7.0++0.0++4.0++0.0++26000.795++500.0
+seed4 fold10/10###############seed4 fold10/10###############seed4 fold10/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.727++0.636++0.91++0.607++0.579++0.638++0.0++7.0++0.0++4.0++0.0++26652.543++500.0
+seed5 fold1/10###############seed5 fold1/10###############seed5 fold1/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.694++0.692++0.935++0.775++0.58++0.624++0.365++8.0++0.0++4.0++1.0++27367.471++500.0
+seed5 fold2/10###############seed5 fold2/10###############seed5 fold2/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.731++0.615++0.913++0.575++0.573++0.66++0.0++8.0++0.0++5.0++0.0++28076.404++500.0
+seed5 fold3/10###############seed5 fold3/10###############seed5 fold3/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.694++0.615++0.912++0.875++0.588++0.595++0.0++8.0++0.0++5.0++0.0++28801.523++500.0
+seed5 fold4/10###############seed5 fold4/10###############seed5 fold4/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.706++0.583++0.905++0.714++0.58++0.647++0.0++7.0++0.0++5.0++0.0++29473.514++500.0
+seed5 fold5/10###############seed5 fold5/10###############seed5 fold5/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.716++0.667++0.9++0.771++0.582++0.621++0.293++6.0++1.0++3.0++2.0++30127.125++500.0
+seed5 fold6/10###############seed5 fold6/10###############seed5 fold6/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.716++0.583++0.9++0.829++0.579++0.625++0.0++7.0++0.0++5.0++0.0++30687.64++500.0
+seed5 fold7/10###############seed5 fold7/10###############seed5 fold7/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.716++0.667++0.899++0.943++0.586++0.605++0.357++7.0++0.0++4.0++1.0++31339.721++500.0
+seed5 fold8/10###############seed5 fold8/10###############seed5 fold8/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.706++0.583++0.907++0.8++0.581++0.63++0.0++7.0++0.0++5.0++0.0++31996.228++500.0
+seed5 fold9/10###############seed5 fold9/10###############seed5 fold9/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.727++0.636++0.912++0.75++0.585++0.614++0.0++7.0++0.0++4.0++0.0++32674.473++500.0
+seed5 fold10/10###############seed5 fold10/10###############seed5 fold10/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.709++0.636++0.915++0.857++0.584++0.6++0.0++7.0++0.0++4.0++0.0++33338.663++500.0
+seed6 fold1/10###############seed6 fold1/10###############seed6 fold1/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.648++0.615++0.91++0.55++0.602++0.664++0.0++8.0++0.0++5.0++0.0++33826.38++347.0
+seed6 fold2/10###############seed6 fold2/10###############seed6 fold2/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.704++0.692++0.908++0.9++0.588++0.589++0.365++8.0++0.0++4.0++1.0++34516.746++500.0
+seed6 fold3/10###############seed6 fold3/10###############seed6 fold3/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.713++0.615++0.901++0.675++0.581++0.639++0.0++8.0++0.0++5.0++0.0++35216.566++500.0
+seed6 fold4/10###############seed6 fold4/10###############seed6 fold4/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.706++0.583++0.916++1.0++0.588++0.583++0.0++7.0++0.0++5.0++0.0++35864.091++500.0
+seed6 fold5/10###############seed6 fold5/10###############seed6 fold5/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.716++0.583++0.907++0.771++0.58++0.644++0.0++7.0++0.0++5.0++0.0++36557.124++500.0
+seed6 fold6/10###############seed6 fold6/10###############seed6 fold6/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.706++0.583++0.926++0.686++0.58++0.647++0.076++6.0++1.0++4.0++1.0++37224.332++500.0
+seed6 fold7/10###############seed6 fold7/10###############seed6 fold7/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.725++0.667++0.915++0.8++0.583++0.618++0.357++7.0++0.0++4.0++1.0++37893.434++500.0
+seed6 fold8/10###############seed6 fold8/10###############seed6 fold8/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.706++0.833++0.911++0.8++0.582++0.605++0.683++7.0++0.0++2.0++3.0++38538.042++500.0
+seed6 fold9/10###############seed6 fold9/10###############seed6 fold9/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.727++0.636++0.911++0.893++0.584++0.596++0.0++7.0++0.0++4.0++0.0++39230.035++500.0
+seed6 fold10/10###############seed6 fold10/10###############seed6 fold10/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.709++0.636++0.906++0.607++0.579++0.652++0.134++6.0++1.0++3.0++1.0++39900.332++500.0
+seed7 fold1/10###############seed7 fold1/10###############seed7 fold1/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.694++0.692++0.939++0.75++0.582++0.615++0.365++8.0++0.0++4.0++1.0++40599.605++500.0
+seed7 fold2/10###############seed7 fold2/10###############seed7 fold2/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.713++0.615++0.903++0.725++0.581++0.627++0.101++7.0++1.0++4.0++1.0++41274.544++500.0
+seed7 fold3/10###############seed7 fold3/10###############seed7 fold3/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.704++0.769++0.9++0.9++0.587++0.592++0.539++8.0++0.0++3.0++2.0++41948.757++500.0
+seed7 fold4/10###############seed7 fold4/10###############seed7 fold4/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.725++0.583++0.891++0.829++0.582++0.626++0.0++7.0++0.0++5.0++0.0++42609.807++500.0
+seed7 fold5/10###############seed7 fold5/10###############seed7 fold5/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.716++0.667++0.917++0.829++0.578++0.638++0.357++7.0++0.0++4.0++1.0++43279.9++500.0
+seed7 fold6/10###############seed7 fold6/10###############seed7 fold6/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.725++0.667++0.912++0.8++0.582++0.622++0.357++7.0++0.0++4.0++1.0++43935.989++500.0
+seed7 fold7/10###############seed7 fold7/10###############seed7 fold7/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.716++0.583++0.911++0.771++0.577++0.639++0.0++7.0++0.0++5.0++0.0++44591.189++500.0
+seed7 fold8/10###############seed7 fold8/10###############seed7 fold8/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.716++0.5++0.903++0.743++0.58++0.661++-0.255++6.0++1.0++5.0++0.0++45261.288++500.0
+seed7 fold9/10###############seed7 fold9/10###############seed7 fold9/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.7++0.818++0.905++0.786++0.584++0.599++0.624++7.0++0.0++2.0++2.0++45937.969++500.0
+seed7 fold10/10###############seed7 fold10/10###############seed7 fold10/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.709++0.636++0.916++1.0++0.59++0.573++0.0++7.0++0.0++4.0++0.0++46617.843++500.0
+seed8 fold1/10###############seed8 fold1/10###############seed8 fold1/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.722++0.538++0.904++0.85++0.581++0.625++-0.228++7.0++1.0++5.0++0.0++47297.585++500.0
+seed8 fold2/10###############seed8 fold2/10###############seed8 fold2/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.704++0.615++0.907++0.775++0.58++0.625++0.0++8.0++0.0++5.0++0.0++47958.541++500.0
+seed8 fold3/10###############seed8 fold3/10###############seed8 fold3/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.713++0.692++0.902++1.0++0.588++0.578++0.365++8.0++0.0++4.0++1.0++48633.126++500.0
+seed8 fold4/10###############seed8 fold4/10###############seed8 fold4/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.716++0.667++0.908++0.829++0.583++0.635++0.357++7.0++0.0++4.0++1.0++49298.542++500.0
+seed8 fold5/10###############seed8 fold5/10###############seed8 fold5/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.716++0.75++0.905++0.829++0.581++0.616++0.529++7.0++0.0++3.0++2.0++49971.779++500.0
+seed8 fold6/10###############seed8 fold6/10###############seed8 fold6/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.734++0.583++0.901++0.686++0.576++0.66++0.0++7.0++0.0++5.0++0.0++50617.22++500.0
+seed8 fold7/10###############seed8 fold7/10###############seed8 fold7/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.716++0.583++0.903++0.8++0.58++0.64++0.0++7.0++0.0++5.0++0.0++51303.527++500.0
+seed8 fold8/10###############seed8 fold8/10###############seed8 fold8/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.697++0.667++0.928++0.8++0.584++0.623++0.357++7.0++0.0++4.0++1.0++51975.545++500.0
+seed8 fold9/10###############seed8 fold9/10###############seed8 fold9/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.718++0.636++0.92++0.821++0.582++0.607++0.134++6.0++1.0++3.0++1.0++52659.97++500.0
+seed8 fold10/10###############seed8 fold10/10###############seed8 fold10/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.709++0.727++0.914++0.929++0.587++0.579++0.418++7.0++0.0++3.0++1.0++53316.084++500.0
+seed9 fold1/10###############seed9 fold1/10###############seed9 fold1/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.713++0.769++0.906++0.875++0.584++0.589++0.539++8.0++0.0++3.0++2.0++53968.886++500.0
+seed9 fold2/10###############seed9 fold2/10###############seed9 fold2/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.722++0.692++0.903++0.8++0.584++0.617++0.365++8.0++0.0++4.0++1.0++54614.44++500.0
+seed9 fold3/10###############seed9 fold3/10###############seed9 fold3/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.685++0.692++0.917++0.95++0.589++0.59++0.365++8.0++0.0++4.0++1.0++55272.339++500.0
+seed9 fold4/10###############seed9 fold4/10###############seed9 fold4/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.606++0.583++0.822++0.286++0.663++0.681++0.0++7.0++0.0++5.0++0.0++55343.172++48.0
+seed9 fold5/10###############seed9 fold5/10###############seed9 fold5/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.661++0.583++0.924++0.543++0.597++0.673++0.0++7.0++0.0++5.0++0.0++55825.784++365.0
+seed9 fold6/10###############seed9 fold6/10###############seed9 fold6/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.716++0.583++0.908++0.914++0.581++0.621++0.0++7.0++0.0++5.0++0.0++56485.596++500.0
+seed9 fold7/10###############seed9 fold7/10###############seed9 fold7/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.706++0.583++0.9++0.686++0.582++0.656++0.076++6.0++1.0++4.0++1.0++57149.866++500.0
+seed9 fold8/10###############seed9 fold8/10###############seed9 fold8/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.716++0.583++0.902++0.914++0.585++0.592++0.0++7.0++0.0++5.0++0.0++57806.472++500.0
+seed9 fold9/10###############seed9 fold9/10###############seed9 fold9/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.709++0.636++0.913++0.643++0.582++0.638++0.134++6.0++1.0++3.0++1.0++58489.175++500.0
+seed9 fold10/10###############seed9 fold10/10###############seed9 fold10/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.7++0.636++0.921++1.0++0.589++0.595++0.0++7.0++0.0++4.0++0.0++59138.299++500.0
+seed10 fold1/10###############seed10 fold1/10###############seed10 fold1/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.704++0.538++0.91++0.725++0.58++0.634++-0.228++7.0++1.0++5.0++0.0++59803.738++500.0
+seed10 fold2/10###############seed10 fold2/10###############seed10 fold2/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.722++0.615++0.906++0.725++0.579++0.641++0.0++8.0++0.0++5.0++0.0++60481.797++500.0
+seed10 fold3/10###############seed10 fold3/10###############seed10 fold3/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.722++0.615++0.918++0.8++0.578++0.631++0.0++8.0++0.0++5.0++0.0++61191.641++500.0
+seed10 fold4/10###############seed10 fold4/10###############seed10 fold4/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.706++0.75++0.906++0.943++0.589++0.594++0.529++7.0++0.0++3.0++2.0++61876.017++500.0
+seed10 fold5/10###############seed10 fold5/10###############seed10 fold5/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.716++0.583++0.911++0.971++0.583++0.6++0.0++7.0++0.0++5.0++0.0++62583.839++500.0
+seed10 fold6/10###############seed10 fold6/10###############seed10 fold6/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.706++0.667++0.902++0.943++0.585++0.594++0.357++7.0++0.0++4.0++1.0++63295.545++500.0
+seed10 fold7/10###############seed10 fold7/10###############seed10 fold7/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.697++0.583++0.913++0.886++0.584++0.624++0.0++7.0++0.0++5.0++0.0++64007.98++500.0
+seed10 fold8/10###############seed10 fold8/10###############seed10 fold8/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.716++0.5++0.919++0.686++0.577++0.657++-0.255++6.0++1.0++5.0++0.0++64725.856++500.0
+seed10 fold9/10###############seed10 fold9/10###############seed10 fold9/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.718++0.636++0.904++0.893++0.588++0.577++0.0++7.0++0.0++4.0++0.0++65455.322++500.0
+seed10 fold10/10###############seed10 fold10/10###############seed10 fold10/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.6++0.636++0.881++0.429++0.65++0.662++0.0++7.0++0.0++4.0++0.0++65703.976++113.0
+time	tr_ac	va_ac	sd	va_au	sd	tn	fn	fp	tp	preci	sd	recall	sd	f1	sd	mmc	sd	epst
+65704.0	0.707	0.634	0.012	0.799	0.021	7.16	4.29	0.14	0.51	0.373	0.108	0.106	0.039	0.16	0.055	0.133	0.048	482.25
+tr_ac_a	sd_ac	va_ac_a	sd_ac	tr_au_a	sd_au	va_au_a	sd_au	va_mc_a	sd_mc
+0.7068910002708435	0.024903161451220512	0.6339335685968399	0.06295088437727497	0.9085374980903521	0.013273126643629453	0.7993214285714285	0.1333408007050095	0.1330496383460863	0.21553917780839538

@@ -1,0 +1,2006 @@
+{'type_run': 'learn', 'config_file': '', 'seed_value_begin': 1, 'search_already': 'y', 'cudaid': -3, 'gpu_memory_fraction': 0.0, 'rd_pr_seed': 'none', 'debug': 'n', 'check': 'n', 'grid_coef_time': 10, 'cv_coef_time': 4, 'coef_ini': 255.0, 'metric_selection': 'roc_auc', 'parent_folder_img': '/home/ubuntu/gene-abundance/experiment/images/fc_model/qtf_pc576_10_fillseqf_nb10_auy_gray/', 'original_data_folder': '/home/ubuntu/data/', 'data_name': 'wt2dgene', 'parent_folder_results': '/home/ubuntu/gene-abundance/experiment/results/fc_model/qtf_pc576_10_fillseqf_nb10_auy_gray/', 'save_avg_run': 'n', 'save_labels': 'n', 'save_d': 'n', 'save_w': 'n', 'suff_fini': 'ok', 'save_rf': 'y', 'save_para': 'y', 'path_config_w': '', 'ext_data': '', 'save_entire_w': 'n', 'save_folds': 'y', 'sound_fini': 'n', 'n_folds': 10, 'test_ext': 'n', 'run_time': 10, 'whole_run_time': 1, 'preprocess_img': 'none', 'pretrained_w_path': '', 'test_size': 1.0, 'numfilters': 64, 'numlayercnn_per_maxpool': 1, 'nummaxpool': 1, 'dropout_cnn': 0.0, 'dropout_fc': 0.0, 'padding': 'n', 'filtersize': 3, 'poolsize': 2, 'model': 'fc_model', 'num_classes': 1, 'epoch': 500, 'learning_rate': -1.0, 'batch_size': 16, 'learning_rate_decay': 0.0, 'momentum': 0.0, 'optimizer': 'adam', 'loss_func': 'binary_crossentropy', 'e_stop': 5, 'e_stop_consec': 'consec', 'svm_c': 1.0, 'svm_kernel': 'linear', 'rf_n_estimators': 500, 'rf_max_features': -2, 'rf_max_depth': -1, 'knn_n_neighbors': 5, 'coeff': 255.0, 'orderf_fill': 'none', 'new_dim': 576, 'path_vis_learn': '', 'path_data_vis_learn': '', 'del0': 'n', 'lr_visual': 100.0, 'label_visual': '', 'iter_visual': 300, 'ini_visual': 'pca', 'method_lle': 'standard', 'eigen_solver': 'auto', 'cmap_vmin': 0.0, 'cmap_vmax': 1.0, 'scale_mode': 'qtf', 'n_quantile': 1000, 'min_scale': 0.0, 'max_scale': 1.0, 'min_v': 0.0, 'max_v': 1.0, 'num_bin': 10, 'auto_v': 'y', 'mode_pre_img': 'caffe', 'channel': 1, 'dim_img': -1, 'visualize_model': 'n', 'algo_redu': 'pc', 'reduc_perle': 10, 'reduc_ini': 'pca', 'type_emb': 'fills', 'imp_fea': 'none', 'label_emb': 0, 'emb_data': '', 'type_bin': 'eqf', 'perlexity_neighbor': 5, 'n_components_emb': 2, 'shape_drawn': ',', 'fig_size': 0, 'point_size': 1.0, 'colormap': 'gray', 'margin': 0.0, 'alpha_v': 1.0, 'recreate_img': 0}
+[]
+seed1 fold1/10+++++++++++seed1 fold1/10+++++++++++seed1 fold1/10
+before reducing, tr_mi/me/ma=0.0/7.064092270877889e-07/0.489925, va_mi/me/ma=0.0/7.064093477913452e-07/0.323728
+after reducing, tr_mi/me/ma=0.0/0.0006032713296954175/0.489925, va_mi/me/ma=0.0/0.0005824103184539063/0.323728, time_reduce=8.539348363876343
+seed1 fold1/10+++++++++++seed1 fold1/10+++++++++++seed1 fold1/10
+after scale, remained information=5760/5760=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1605  363  334  368  428  527  549  521  478  587]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[13205  2715  3329  3244  4114  4389  4112  4298  5003  5127]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1605  363  334  368  428  527  549  521  478  587]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[13205  2715  3329  3244  4114  4389  4112  4298  5003  5127]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=5.050132989883423
+seed1 fold1/10###############seed1 fold1/10###############seed1 fold1/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+1.0++0.7++1.0++0.84++0.14++0.514++0.5++2.0++3.0++0.0++5.0++45.523++330.0
+seed1 fold2/10+++++++++++seed1 fold2/10+++++++++++seed1 fold2/10
+before reducing, tr_mi/me/ma=0.0/7.064092388596589e-07/0.489925, va_mi/me/ma=0.0/7.064092465532645e-07/0.319019
+after reducing, tr_mi/me/ma=0.0/0.0006011228181165434/0.489925, va_mi/me/ma=0.0/0.0006010966062841666/0.319019, time_reduce=17.397980213165283
+seed1 fold2/10+++++++++++seed1 fold2/10+++++++++++seed1 fold2/10
+after scale, remained information=5760/5760=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1760  331  321  338  419  428  533  529  512  589]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[13672  2765  3397  3251  3947  4174  3970  4245  4994  5121]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1760  331  321  338  419  428  533  529  512  589]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[13672  2765  3397  3251  3947  4174  3970  4245  4994  5121]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=5.006382703781128
+seed1 fold2/10###############seed1 fold2/10###############seed1 fold2/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.64++0.4++0.795++0.44++0.588++0.823++-0.218++1.0++4.0++2.0++3.0++70.052++12.0
+seed1 fold3/10+++++++++++seed1 fold3/10+++++++++++seed1 fold3/10
+before reducing, tr_mi/me/ma=0.0/7.064092350241048e-07/0.489925, va_mi/me/ma=0.0/7.064092795390119e-07/0.331288
+after reducing, tr_mi/me/ma=0.0/0.0006050172003481308/0.489925, va_mi/me/ma=0.0/0.0005526562141456424/0.331288, time_reduce=7.989855527877808
+seed1 fold3/10+++++++++++seed1 fold3/10+++++++++++seed1 fold3/10
+after scale, remained information=5760/5760=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1764  410  413  406  427  429  424  448  503  536]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[11484  2970  3689  3556  4456  4651  4240  4335  5020  5135]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1764  410  413  406  427  429  424  448  503  536]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[11484  2970  3689  3556  4456  4651  4240  4335  5020  5135]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=5.164622783660889
+seed1 fold3/10###############seed1 fold3/10###############seed1 fold3/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.872++0.8++0.921++0.8++0.413++0.526++0.6++4.0++1.0++1.0++4.0++86.266++60.0
+seed1 fold4/10+++++++++++seed1 fold4/10+++++++++++seed1 fold4/10
+before reducing, tr_mi/me/ma=0.0/7.064092510484851e-07/0.489925, va_mi/me/ma=0.0/7.064091417293463e-07/0.330815
+after reducing, tr_mi/me/ma=0.0/0.0006006358415726057/0.489925, va_mi/me/ma=0.0/0.0006050821184846702/0.330815, time_reduce=11.742115497589111
+seed1 fold4/10+++++++++++seed1 fold4/10+++++++++++seed1 fold4/10
+after scale, remained information=5760/5760=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1466  297  307  378  420  470  528  660  720  514]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[13648  2863  3435  3265  3939  4115  3910  4225  5015  5121]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1466  297  307  378  420  470  528  660  720  514]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[13648  2863  3435  3265  3939  4115  3910  4225  5015  5121]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.960075616836548
+seed1 fold4/10###############seed1 fold4/10###############seed1 fold4/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.744++0.5++0.822++0.667++0.58++0.634++0.0++2.0++2.0++3.0++3.0++105.128++16.0
+seed1 fold5/10+++++++++++seed1 fold5/10+++++++++++seed1 fold5/10
+before reducing, tr_mi/me/ma=0.0/7.064092514849751e-07/0.489925, va_mi/me/ma=0.0/7.064091379755537e-07/0.36454200000000003
+after reducing, tr_mi/me/ma=0.0/0.0006043122032735607/0.489925, va_mi/me/ma=0.0/0.0005884080196523611/0.36454200000000003, time_reduce=8.319359302520752
+seed1 fold5/10+++++++++++seed1 fold5/10+++++++++++seed1 fold5/10
+after scale, remained information=5760/5760=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1359  361  483  511  515  474  442  571  577  467]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[11701  3064  3758  3574  4390  4552  4158  4262  4954  5123]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1359  361  483  511  515  474  442  571  577  467]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[11701  3064  3758  3574  4390  4552  4158  4262  4954  5123]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.960440635681152
+seed1 fold5/10###############seed1 fold5/10###############seed1 fold5/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.826++0.8++0.908++0.833++0.432++0.506++0.583++3.0++1.0++1.0++5.0++121.097++56.0
+seed1 fold6/10+++++++++++seed1 fold6/10+++++++++++seed1 fold6/10
+before reducing, tr_mi/me/ma=0.0/7.064092478910864e-07/0.489925, va_mi/me/ma=0.0/7.064091688829746e-07/0.394823
+after reducing, tr_mi/me/ma=0.0/0.0006006715005943536/0.489925, va_mi/me/ma=0.0/0.0006161926950064584/0.394823, time_reduce=7.131516218185425
+seed1 fold6/10+++++++++++seed1 fold6/10+++++++++++seed1 fold6/10
+after scale, remained information=5760/5760=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1477  349  409  417  501  465  542  559  499  542]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[12457  2936  3589  3445  4136  4344  4127  4316  5051  5135]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1477  349  409  417  501  465  542  559  499  542]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[12457  2936  3589  3445  4136  4344  4127  4316  5051  5135]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.6579577922821045
+seed1 fold6/10###############seed1 fold6/10###############seed1 fold6/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.965++0.8++0.991++0.792++0.218++0.524++0.667++4.0++0.0++2.0++4.0++137.768++180.0
+seed1 fold7/10+++++++++++seed1 fold7/10+++++++++++seed1 fold7/10
+before reducing, tr_mi/me/ma=0.0/7.064092329545751e-07/0.489925, va_mi/me/ma=0.0/7.064093044905834e-07/0.34266599999999997
+after reducing, tr_mi/me/ma=0.0/0.0006052483072059786/0.489925, va_mi/me/ma=0.0/0.0006115161570782214/0.34266599999999997, time_reduce=10.87118649482727
+seed1 fold7/10+++++++++++seed1 fold7/10+++++++++++seed1 fold7/10
+after scale, remained information=5184/5184=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1138  459  376  396  417  395  409  454  518  622]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[10570  3711  3528  4215  4011  4653  4815  4410  5057  5142]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1138  459  376  396  417  395  409  454  518  622]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[10570  3711  3528  4215  4011  4653  4815  4410  5057  5142]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.90117883682251
+seed1 fold7/10###############seed1 fold7/10###############seed1 fold7/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.724++0.556++0.818++0.5++0.577++0.79++0.1++2.0++2.0++2.0++3.0++155.689++13.0
+seed1 fold8/10+++++++++++seed1 fold8/10+++++++++++seed1 fold8/10
+before reducing, tr_mi/me/ma=0.0/7.064092386882463e-07/0.489925, va_mi/me/ma=0.0/7.064092490651183e-07/0.453009
+after reducing, tr_mi/me/ma=0.0/0.0005975567598819604/0.489925, va_mi/me/ma=0.0/0.0006137402775576196/0.453009, time_reduce=10.391977787017822
+seed1 fold8/10+++++++++++seed1 fold8/10+++++++++++seed1 fold8/10
+after scale, remained information=5184/5184=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1361  256  351  379  431  384  477  489  495  561]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[13467  3216  3098  3758  3623  4247  4463  4163  4963  5114]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1361  256  351  379  431  384  477  489  495  561]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[13467  3216  3098  3758  3623  4247  4463  4163  4963  5114]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=5.03637170791626
+seed1 fold8/10###############seed1 fold8/10###############seed1 fold8/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.828++0.556++0.899++0.55++0.441++0.71++0.158++3.0++1.0++3.0++2.0++173.845++42.0
+seed1 fold9/10+++++++++++seed1 fold9/10+++++++++++seed1 fold9/10
+before reducing, tr_mi/me/ma=0.0/7.064092341597152e-07/0.489925, va_mi/me/ma=0.0/7.064092928408554e-07/0.362576
+after reducing, tr_mi/me/ma=0.0/0.0005986376649014748/0.489925, va_mi/me/ma=0.0/0.0005919509448158373/0.362576, time_reduce=8.81152081489563
+seed1 fold9/10+++++++++++seed1 fold9/10+++++++++++seed1 fold9/10
+after scale, remained information=5184/5184=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1123  300  317  347  371  461  600  630  500  535]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[14076  2992  2901  3489  3464  4210  4495  4308  5037  5140]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1123  300  317  347  371  461  600  630  500  535]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[14076  2992  2901  3489  3464  4210  4495  4308  5037  5140]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.911074876785278
+seed1 fold9/10###############seed1 fold9/10###############seed1 fold9/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.759++0.222++0.84++0.3++0.519++0.841++-0.598++2.0++2.0++5.0++0.0++190.043++23.0
+seed1 fold10/10+++++++++++seed1 fold10/10+++++++++++seed1 fold10/10
+before reducing, tr_mi/me/ma=0.0/7.064092395664811e-07/0.453009, va_mi/me/ma=0.0/7.064092405754822e-07/0.489925
+after reducing, tr_mi/me/ma=0.0/0.0005976119455837983/0.453009, va_mi/me/ma=0.0/0.0006341814716331598/0.489925, time_reduce=9.619677782058716
+seed1 fold10/10+++++++++++seed1 fold10/10+++++++++++seed1 fold10/10
+after scale, remained information=5184/5184=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1416  386  446  437  515  418  386  346  360  474]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[12158  3377  3269  3980  3863  4486  4638  4268  4962  5111]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1416  386  446  437  515  418  386  346  360  474]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[12158  3377  3269  3980  3863  4486  4638  4268  4962  5111]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=5.181320428848267
+seed1 fold10/10###############seed1 fold10/10###############seed1 fold10/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.851++0.667++0.924++0.85++0.411++0.596++0.478++4.0++0.0++3.0++2.0++208.251++59.0
+seed2 fold1/10+++++++++++seed2 fold1/10+++++++++++seed2 fold1/10
+before reducing, tr_mi/me/ma=0.0/7.06409241463721e-07/0.489925, va_mi/me/ma=0.0/7.064092241583195e-07/0.322307
+after reducing, tr_mi/me/ma=0.0/0.0006008728305677769/0.489925, va_mi/me/ma=0.0/0.000610908974855191/0.322307, time_reduce=7.388451099395752
+seed2 fold1/10+++++++++++seed2 fold1/10+++++++++++seed2 fold1/10
+after scale, remained information=5760/5760=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1372  407  383  432  414  485  535  508  600  624]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[12672  2957  3626  3447  4131  4337  4047  4225  4985  5109]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1372  407  383  432  414  485  535  508  600  624]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[12672  2957  3626  3447  4131  4337  4047  4225  4985  5109]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.697012901306152
+seed2 fold1/10###############seed2 fold1/10###############seed2 fold1/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+1.0++0.8++1.0++0.76++0.146++0.506++0.655++5.0++0.0++2.0++3.0++228.46++318.0
+seed2 fold2/10+++++++++++seed2 fold2/10+++++++++++seed2 fold2/10
+before reducing, tr_mi/me/ma=0.0/7.064092408666953e-07/0.489925, va_mi/me/ma=0.0/7.064092292927453e-07/0.330815
+after reducing, tr_mi/me/ma=0.0/0.0006044973899719054/0.489925, va_mi/me/ma=0.0/0.0005862223338409548/0.330815, time_reduce=8.756977081298828
+seed2 fold2/10+++++++++++seed2 fold2/10+++++++++++seed2 fold2/10
+after scale, remained information=5760/5760=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1491  392  455  477  451  573  456  481  561  423]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[11823  3009  3693  3567  4320  4528  4178  4303  4985  5130]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1491  392  455  477  451  573  456  481  561  423]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[11823  3009  3693  3567  4320  4528  4178  4303  4985  5130]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.68482232093811
+seed2 fold2/10###############seed2 fold2/10###############seed2 fold2/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.837++0.8++0.916++0.88++0.429++0.588++0.655++3.0++2.0++0.0++5.0++245.785++60.0
+seed2 fold3/10+++++++++++seed2 fold3/10+++++++++++seed2 fold3/10
+before reducing, tr_mi/me/ma=0.0/7.064092348365132e-07/0.489925, va_mi/me/ma=0.0/7.06409281152349e-07/0.300148
+after reducing, tr_mi/me/ma=0.0/0.0006107018827632792/0.489925, va_mi/me/ma=0.0/0.0005553770549367709/0.300148, time_reduce=8.48815631866455
+seed2 fold3/10+++++++++++seed2 fold3/10+++++++++++seed2 fold3/10
+after scale, remained information=5760/5760=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1391  399  389  438  515  466  499  536  510  617]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[11545  3068  3758  3593  4392  4530  4182  4312  5018  5138]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1391  399  389  438  515  466  499  536  510  617]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[11545  3068  3758  3593  4392  4530  4182  4312  5018  5138]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.952507734298706
+seed2 fold3/10###############seed2 fold3/10###############seed2 fold3/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.872++0.7++0.941++0.8++0.414++0.559++0.408++3.0++2.0++1.0++4.0++262.704++49.0
+seed2 fold4/10+++++++++++seed2 fold4/10+++++++++++seed2 fold4/10
+before reducing, tr_mi/me/ma=0.0/7.064092451411314e-07/0.489925, va_mi/me/ma=0.0/7.064091925325575e-07/0.338953
+after reducing, tr_mi/me/ma=0.0/0.0005983502292516614/0.489925, va_mi/me/ma=0.0/0.0005994108875474652/0.338953, time_reduce=8.708892107009888
+seed2 fold4/10+++++++++++seed2 fold4/10+++++++++++seed2 fold4/10
+after scale, remained information=5760/5760=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1623  318  311  381  432  404  434  533  581  743]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[12973  2860  3493  3369  4135  4326  4048  4222  4976  5134]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1623  318  311  381  432  404  434  533  581  743]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[12973  2860  3493  3369  4135  4326  4048  4222  4976  5134]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.912400007247925
+seed2 fold4/10###############seed2 fold4/10###############seed2 fold4/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.767++0.6++0.862++0.708++0.519++0.6++0.25++3.0++1.0++3.0++3.0++279.556++21.0
+seed2 fold5/10+++++++++++seed2 fold5/10+++++++++++seed2 fold5/10
+before reducing, tr_mi/me/ma=0.0/7.06409231898897e-07/0.489925, va_mi/me/ma=0.0/7.064093064158108e-07/0.362576
+after reducing, tr_mi/me/ma=0.0/0.0006076215837039567/0.489925, va_mi/me/ma=0.0/0.0005714026025387153/0.362576, time_reduce=8.265123844146729
+seed2 fold5/10+++++++++++seed2 fold5/10+++++++++++seed2 fold5/10
+after scale, remained information=5760/5760=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1296  504  551  528  528  542  497  475  415  424]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[10110  3477  4177  3868  4533  4645  4214  4332  5037  5143]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1296  504  551  528  528  542  497  475  415  424]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[10110  3477  4177  3868  4533  4645  4214  4332  5037  5143]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.887112855911255
+seed2 fold5/10###############seed2 fold5/10###############seed2 fold5/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.767++0.6++0.844++0.667++0.527++0.72++0.167++2.0++2.0++2.0++4.0++295.774++16.0
+seed2 fold6/10+++++++++++seed2 fold6/10+++++++++++seed2 fold6/10
+before reducing, tr_mi/me/ma=0.0/7.064092403221761e-07/0.489925, va_mi/me/ma=0.0/7.064092339756207e-07/0.35940700000000003
+after reducing, tr_mi/me/ma=0.0/0.0006018569484354087/0.489925, va_mi/me/ma=0.0/0.0006027835170719619/0.35940700000000003, time_reduce=9.263206481933594
+seed2 fold6/10+++++++++++seed2 fold6/10+++++++++++seed2 fold6/10
+after scale, remained information=5760/5760=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1504  348  358  418  497  460  560  490  502  623]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[12563  2947  3610  3472  4230  4393  4070  4233  4937  5081]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1504  348  358  418  497  460  560  490  502  623]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[12563  2947  3610  3472  4230  4393  4070  4233  4937  5081]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.822698354721069
+seed2 fold6/10###############seed2 fold6/10###############seed2 fold6/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.709++0.6++0.803++0.625++0.578++0.697++0.25++3.0++1.0++3.0++3.0++313.37++16.0
+seed2 fold7/10+++++++++++seed2 fold7/10+++++++++++seed2 fold7/10
+before reducing, tr_mi/me/ma=0.0/7.064092439311471e-07/0.489925, va_mi/me/ma=0.0/7.064091983837103e-07/0.453009
+after reducing, tr_mi/me/ma=0.0/0.0006040513413764188/0.489925, va_mi/me/ma=0.0/0.0006193317152945602/0.453009, time_reduce=9.629857063293457
+seed2 fold7/10+++++++++++seed2 fold7/10+++++++++++seed2 fold7/10
+after scale, remained information=5184/5184=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1317  345  310  351  380  424  486  514  511  546]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[11482  3666  3487  4104  3842  4423  4613  4321  5042  5132]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1317  345  310  351  380  424  486  514  511  546]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[11482  3666  3487  4104  3842  4423  4613  4321  5042  5132]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=5.125207901000977
+seed2 fold7/10###############seed2 fold7/10###############seed2 fold7/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.69++0.778++0.792++0.6++0.582++0.702++0.598++2.0++2.0++0.0++5.0++331.421++13.0
+seed2 fold8/10+++++++++++seed2 fold8/10+++++++++++seed2 fold8/10
+before reducing, tr_mi/me/ma=0.0/7.064092400790437e-07/0.489925, va_mi/me/ma=0.0/7.064092356207311e-07/0.394823
+after reducing, tr_mi/me/ma=0.0/0.0005998918835717174/0.489925, va_mi/me/ma=0.0/0.0006250213806559414/0.394823, time_reduce=10.517441034317017
+seed2 fold8/10+++++++++++seed2 fold8/10+++++++++++seed2 fold8/10
+after scale, remained information=5184/5184=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1318  402  429  420  438  433  449  491  497  307]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[11789  3436  3290  4015  3864  4495  4707  4353  5019  5144]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1318  402  429  420  438  433  449  491  497  307]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[11789  3436  3290  4015  3864  4495  4707  4353  5019  5144]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.8485870361328125
+seed2 fold8/10###############seed2 fold8/10###############seed2 fold8/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.621++0.111++0.746++0.25++0.631++0.906++-0.791++1.0++3.0++5.0++0.0++349.826++8.0
+seed2 fold9/10+++++++++++seed2 fold9/10+++++++++++seed2 fold9/10
+before reducing, tr_mi/me/ma=0.0/7.064092341013948e-07/0.489925, va_mi/me/ma=0.0/7.064092934046585e-07/0.34266599999999997
+after reducing, tr_mi/me/ma=0.0/0.0005980638616385397/0.489925, va_mi/me/ma=0.0/0.0006154353764596065/0.34266599999999997, time_reduce=7.492414236068726
+seed2 fold9/10+++++++++++seed2 fold9/10+++++++++++seed2 fold9/10
+after scale, remained information=5184/5184=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1325  303  320  328  364  456  482  550  536  520]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[13902  3056  2938  3571  3508  4244  4498  4266  5008  5121]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1325  303  320  328  364  456  482  550  536  520]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[13902  3056  2938  3571  3508  4244  4498  4266  5008  5121]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.675858020782471
+seed2 fold9/10###############seed2 fold9/10###############seed2 fold9/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.793++0.556++0.868++0.55++0.504++0.695++0.1++2.0++2.0++2.0++3.0++365.961++27.0
+seed2 fold10/10+++++++++++seed2 fold10/10+++++++++++seed2 fold10/10
+before reducing, tr_mi/me/ma=0.0/7.064092439305249e-07/0.453009, va_mi/me/ma=0.0/7.064091983897102e-07/0.489925
+after reducing, tr_mi/me/ma=0.0/0.0005936951352170149/0.453009, va_mi/me/ma=0.0/0.0006182706441629244/0.489925, time_reduce=9.492574453353882
+seed2 fold10/10+++++++++++seed2 fold10/10+++++++++++seed2 fold10/10
+after scale, remained information=5184/5184=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1551  178  307  379  392  497  486  481  427  486]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[14615  2751  2776  3449  3439  4155  4491  4284  5015  5137]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1551  178  307  379  392  497  486  481  427  486]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[14615  2751  2776  3449  3439  4155  4491  4284  5015  5137]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.457187652587891
+seed2 fold10/10###############seed2 fold10/10###############seed2 fold10/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.828++0.667++0.892++0.75++0.467++0.582++0.316++2.0++2.0++1.0++4.0++383.822++41.0
+seed3 fold1/10+++++++++++seed3 fold1/10+++++++++++seed3 fold1/10
+before reducing, tr_mi/me/ma=0.0/7.064092257839747e-07/0.489925, va_mi/me/ma=0.0/7.064093590041404e-07/0.319019
+after reducing, tr_mi/me/ma=0.0/0.0006057824549493075/0.489925, va_mi/me/ma=0.0/0.0005642587623121701/0.319019, time_reduce=8.278712272644043
+seed3 fold1/10+++++++++++seed3 fold1/10+++++++++++seed3 fold1/10
+after scale, remained information=5760/5760=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1712  344  331  388  494  406  517  465  535  568]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[12480  2960  3640  3486  4267  4434  4072  4214  4919  5064]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1712  344  331  388  494  406  517  465  535  568]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[12480  2960  3640  3486  4267  4434  4072  4214  4919  5064]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=5.09373140335083
+seed3 fold1/10###############seed3 fold1/10###############seed3 fold1/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.814++0.8++0.901++0.88++0.459++0.427++0.6++4.0++1.0++1.0++4.0++401.294++47.0
+seed3 fold2/10+++++++++++seed3 fold2/10+++++++++++seed3 fold2/10
+before reducing, tr_mi/me/ma=0.0/7.06409240300355e-07/0.489925, va_mi/me/ma=0.0/7.064092341632987e-07/0.34266599999999997
+after reducing, tr_mi/me/ma=0.0/0.0006085503301688287/0.489925, va_mi/me/ma=0.0/0.0005717495458864931/0.34266599999999997, time_reduce=8.897743463516235
+seed3 fold2/10+++++++++++seed3 fold2/10+++++++++++seed3 fold2/10
+after scale, remained information=5760/5760=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1553  474  453  437  391  408  460  407  458  719]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[11693  3169  3829  3622  4316  4453  4111  4236  4971  5136]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1553  474  453  437  391  408  460  407  458  719]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[11693  3169  3829  3622  4316  4453  4111  4236  4971  5136]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.966993808746338
+seed3 fold2/10###############seed3 fold2/10###############seed3 fold2/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.756++0.7++0.86++0.48++0.53++0.751++0.5++2.0++3.0++0.0++5.0++418.939++18.0
+seed3 fold3/10+++++++++++seed3 fold3/10+++++++++++seed3 fold3/10
+before reducing, tr_mi/me/ma=0.0/7.064092415770833e-07/0.489925, va_mi/me/ma=0.0/7.064092231834299e-07/0.33034
+after reducing, tr_mi/me/ma=0.0/0.00060601795089439/0.489925, va_mi/me/ma=0.0/0.0005834901262330208/0.33034, time_reduce=8.760170698165894
+seed3 fold3/10+++++++++++seed3 fold3/10+++++++++++seed3 fold3/10
+after scale, remained information=5760/5760=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1307  402  377  407  536  501  564  537  634  495]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[11977  3142  3802  3574  4248  4367  4069  4280  4982  5095]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1307  402  377  407  536  501  564  537  634  495]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[11977  3142  3802  3574  4248  4367  4069  4280  4982  5095]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.812462329864502
+seed3 fold3/10###############seed3 fold3/10###############seed3 fold3/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.663++0.3++0.764++0.32++0.629++0.779++-0.408++2.0++3.0++4.0++1.0++435.99++8.0
+seed3 fold4/10+++++++++++seed3 fold4/10+++++++++++seed3 fold4/10
+before reducing, tr_mi/me/ma=0.0/7.064092409255242e-07/0.489925, va_mi/me/ma=0.0/7.06409228786815e-07/0.36454200000000003
+after reducing, tr_mi/me/ma=0.0/0.0005972609193039305/0.489925, va_mi/me/ma=0.0/0.000605328935316441/0.36454200000000003, time_reduce=11.503413438796997
+seed3 fold4/10+++++++++++seed3 fold4/10+++++++++++seed3 fold4/10
+after scale, remained information=5760/5760=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1918  369  464  455  437  394  362  397  463  501]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[13410  2831  3482  3336  3990  4180  3980  4251  4969  5107]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1918  369  464  455  437  394  362  397  463  501]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[13410  2831  3482  3336  3990  4180  3980  4251  4969  5107]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.812809944152832
+seed3 fold4/10###############seed3 fold4/10###############seed3 fold4/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.919++0.9++0.962++0.875++0.331++0.421++0.816++4.0++0.0++1.0++5.0++458.56++112.0
+seed3 fold5/10+++++++++++seed3 fold5/10+++++++++++seed3 fold5/10
+before reducing, tr_mi/me/ma=0.0/7.064092485394759e-07/0.489925, va_mi/me/ma=0.0/7.064091633068583e-07/0.341177
+after reducing, tr_mi/me/ma=0.0/0.0005992673663750726/0.489925, va_mi/me/ma=0.0/0.0006340280981309027/0.341177, time_reduce=7.129689931869507
+seed3 fold5/10+++++++++++seed3 fold5/10+++++++++++seed3 fold5/10
+after scale, remained information=5760/5760=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1393  422  375  464  518  463  472  517  541  595]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[11631  3222  3876  3660  4350  4438  4057  4217  4967  5118]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1393  422  375  464  518  463  472  517  541  595]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[11631  3222  3876  3660  4350  4438  4057  4217  4967  5118]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.855549335479736
+seed3 fold5/10###############seed3 fold5/10###############seed3 fold5/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.733++0.6++0.801++0.667++0.608++0.644++0.167++2.0++2.0++2.0++4.0++474.346++9.0
+seed3 fold6/10+++++++++++seed3 fold6/10+++++++++++seed3 fold6/10
+before reducing, tr_mi/me/ma=0.0/7.064092492472718e-07/0.489925, va_mi/me/ma=0.0/7.064091572197846e-07/0.362576
+after reducing, tr_mi/me/ma=0.0/0.0006012532922328166/0.489925, va_mi/me/ma=0.0/0.0006103992681544445/0.362576, time_reduce=8.940123319625854
+seed3 fold6/10+++++++++++seed3 fold6/10+++++++++++seed3 fold6/10
+after scale, remained information=5760/5760=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1219  346  408  405  476  539  474  548  716  629]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[12053  2914  3594  3458  4314  4549  4180  4323  5017  5134]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1219  346  408  405  476  539  474  548  716  629]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[12053  2914  3594  3458  4314  4549  4180  4323  5017  5134]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.932300329208374
+seed3 fold6/10###############seed3 fold6/10###############seed3 fold6/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.942++0.6++0.968++0.875++0.301++0.505++0.25++3.0++1.0++3.0++3.0++494.308++114.0
+seed3 fold7/10+++++++++++seed3 fold7/10+++++++++++seed3 fold7/10
+before reducing, tr_mi/me/ma=0.0/7.064092284064747e-07/0.489925, va_mi/me/ma=0.0/7.064093484555527e-07/0.453009
+after reducing, tr_mi/me/ma=0.0/0.0006005015475037854/0.489925, va_mi/me/ma=0.0/0.0006129150731984567/0.453009, time_reduce=10.325992107391357
+seed3 fold7/10+++++++++++seed3 fold7/10+++++++++++seed3 fold7/10
+after scale, remained information=5184/5184=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1386  263  310  375  405  436  477  511  461  560]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[12786  3281  3153  3814  3634  4326  4617  4317  5052  5132]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1386  263  310  375  405  436  477  511  461  560]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[12786  3281  3153  3814  3634  4326  4617  4317  5052  5132]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.7355310916900635
+seed3 fold7/10###############seed3 fold7/10###############seed3 fold7/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.931++0.778++0.982++0.95++0.301++0.376++0.632++4.0++0.0++2.0++3.0++515.823++120.0
+seed3 fold8/10+++++++++++seed3 fold8/10+++++++++++seed3 fold8/10
+before reducing, tr_mi/me/ma=0.0/7.064092369036705e-07/0.453009, va_mi/me/ma=0.0/7.064092663159778e-07/0.489925
+after reducing, tr_mi/me/ma=0.0/0.0005974088114320063/0.453009, va_mi/me/ma=0.0/0.0006096167168631173/0.489925, time_reduce=9.556133270263672
+seed3 fold8/10+++++++++++seed3 fold8/10+++++++++++seed3 fold8/10
+after scale, remained information=5184/5184=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1163  271  383  413  423  484  489  536  473  549]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[13410  3168  3047  3692  3617  4286  4518  4252  4993  5129]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1163  271  383  413  423  484  489  536  473  549]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[13410  3168  3047  3692  3617  4286  4518  4252  4993  5129]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.7244813442230225
+seed3 fold8/10###############seed3 fold8/10###############seed3 fold8/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.793++0.556++0.837++0.35++0.549++0.739++0.06++1.0++3.0++1.0++4.0++534.84++20.0
+seed3 fold9/10+++++++++++seed3 fold9/10+++++++++++seed3 fold9/10
+before reducing, tr_mi/me/ma=0.0/7.064092422691662e-07/0.489925, va_mi/me/ma=0.0/7.064092144495251e-07/0.322928
+after reducing, tr_mi/me/ma=0.0/0.0005983528823685006/0.489925, va_mi/me/ma=0.0/0.000593717765997203/0.322928, time_reduce=9.0755615234375
+seed3 fold9/10+++++++++++seed3 fold9/10+++++++++++seed3 fold9/10
+after scale, remained information=5184/5184=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1370  272  291  365  442  441  566  524  507  406]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[14067  2942  2916  3581  3582  4267  4490  4208  4951  5108]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1370  272  291  365  442  441  566  524  507  406]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[14067  2942  2916  3581  3582  4267  4490  4208  4951  5108]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.909278392791748
+seed3 fold9/10###############seed3 fold9/10###############seed3 fold9/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.805++0.444++0.913++0.6++0.439++0.686++-0.158++1.0++3.0++2.0++3.0++554.196++52.0
+seed3 fold10/10+++++++++++seed3 fold10/10+++++++++++seed3 fold10/10
+before reducing, tr_mi/me/ma=0.0/7.064092427543948e-07/0.489925, va_mi/me/ma=0.0/7.064092097589522e-07/0.394823
+after reducing, tr_mi/me/ma=0.0/0.0005966703737148667/0.489925, va_mi/me/ma=0.0/0.000608258847180517/0.394823, time_reduce=9.259974241256714
+seed3 fold10/10+++++++++++seed3 fold10/10+++++++++++seed3 fold10/10
+after scale, remained information=5184/5184=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1727  260  329  351  371  389  416  443  418  480]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[14404  2780  2775  3487  3536  4220  4524  4262  4990  5134]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1727  260  329  351  371  389  416  443  418  480]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[14404  2780  2775  3487  3536  4220  4524  4262  4990  5134]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=5.304325342178345
+seed3 fold10/10###############seed3 fold10/10###############seed3 fold10/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.793++0.556++0.861++0.5++0.545++0.688++0.1++2.0++2.0++2.0++3.0++573.212++15.0
+seed4 fold1/10+++++++++++seed4 fold1/10+++++++++++seed4 fold1/10
+before reducing, tr_mi/me/ma=0.0/7.064092477366314e-07/0.489925, va_mi/me/ma=0.0/7.06409170211293e-07/0.331288
+after reducing, tr_mi/me/ma=0.0/0.0006021229486024488/0.489925, va_mi/me/ma=0.0/0.0005814509213480208/0.331288, time_reduce=11.08246922492981
+seed4 fold1/10+++++++++++seed4 fold1/10+++++++++++seed4 fold1/10
+after scale, remained information=5760/5760=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1551  430  369  385  429  411  511  484  587  603]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[13741  2675  3292  3211  4064  4245  3990  4235  4978  5105]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1551  430  369  385  429  411  511  484  587  603]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[13741  2675  3292  3211  4064  4245  3990  4235  4978  5105]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.866144895553589
+seed4 fold1/10###############seed4 fold1/10###############seed4 fold1/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.849++0.6++0.901++0.52++0.473++0.675++0.218++2.0++3.0++1.0++4.0++593.813++32.0
+seed4 fold2/10+++++++++++seed4 fold2/10+++++++++++seed4 fold2/10
+before reducing, tr_mi/me/ma=0.0/7.06409244014616e-07/0.489925, va_mi/me/ma=0.0/7.064092022206047e-07/0.341177
+after reducing, tr_mi/me/ma=0.0/0.0006000901588966651/0.489925, va_mi/me/ma=0.0/0.0005851386160536285/0.341177, time_reduce=7.149069309234619
+seed4 fold2/10+++++++++++seed4 fold2/10+++++++++++seed4 fold2/10
+after scale, remained information=5760/5760=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1731  341  335  372  440  397  421  473  502  748]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[12623  2913  3524  3399  4214  4418  4100  4259  4986  5100]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1731  341  335  372  440  397  421  473  502  748]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[12623  2913  3524  3399  4214  4418  4100  4259  4986  5100]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.913750886917114
+seed4 fold2/10###############seed4 fold2/10###############seed4 fold2/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.802++0.7++0.877++0.84++0.498++0.559++0.408++3.0++2.0++1.0++4.0++611.441++28.0
+seed4 fold3/10+++++++++++seed4 fold3/10+++++++++++seed4 fold3/10
+before reducing, tr_mi/me/ma=0.0/7.064092292745843e-07/0.489925, va_mi/me/ma=0.0/7.064093289848954e-07/0.36454200000000003
+after reducing, tr_mi/me/ma=0.0/0.0005980303651730682/0.489925, va_mi/me/ma=0.0/0.0006077704003338368/0.36454200000000003, time_reduce=7.392575740814209
+seed4 fold3/10+++++++++++seed4 fold3/10+++++++++++seed4 fold3/10
+after scale, remained information=5760/5760=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[2126  330  304  324  341  388  448  430  464  605]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[14878  2620  3192  3054  3664  3905  3872  4238  4999  5114]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[2126  330  304  324  341  388  448  430  464  605]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[14878  2620  3192  3054  3664  3905  3872  4238  4999  5114]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.763780117034912
+seed4 fold3/10###############seed4 fold3/10###############seed4 fold3/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.698++0.6++0.748++0.6++0.628++0.694++0.218++4.0++1.0++3.0++2.0++628.294++14.0
+seed4 fold4/10+++++++++++seed4 fold4/10+++++++++++seed4 fold4/10
+before reducing, tr_mi/me/ma=0.0/7.064092441662664e-07/0.489925, va_mi/me/ma=0.0/7.064092009164674e-07/0.322307
+after reducing, tr_mi/me/ma=0.0/0.0006069274652655764/0.489925, va_mi/me/ma=0.0/0.0005787981865094966/0.322307, time_reduce=8.112083196640015
+seed4 fold4/10+++++++++++seed4 fold4/10+++++++++++seed4 fold4/10
+after scale, remained information=5760/5760=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1282  427  490  519  473  416  501  470  599  583]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[10955  3238  3942  3734  4418  4545  4200  4332  5030  5142]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1282  427  490  519  473  416  501  470  599  583]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[10955  3238  3942  3734  4418  4545  4200  4332  5030  5142]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.99808406829834
+seed4 fold4/10###############seed4 fold4/10###############seed4 fold4/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.849++0.5++0.91++0.75++0.436++0.526++-0.089++1.0++3.0++2.0++4.0++647.409++52.0
+seed4 fold5/10+++++++++++seed4 fold5/10+++++++++++seed4 fold5/10
+before reducing, tr_mi/me/ma=0.0/7.064092338048277e-07/0.489925, va_mi/me/ma=0.0/7.064092900248141e-07/0.394823
+after reducing, tr_mi/me/ma=0.0/0.0005959479847497314/0.489925, va_mi/me/ma=0.0/0.0006343326484035764/0.394823, time_reduce=8.078358888626099
+seed4 fold5/10+++++++++++seed4 fold5/10+++++++++++seed4 fold5/10
+after scale, remained information=5760/5760=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1217  405  449  486  460  544  613  586  584  416]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[11808  3132  3777  3562  4249  4428  4121  4304  5009  5146]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1217  405  449  486  460  544  613  586  584  416]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[11808  3132  3777  3562  4249  4428  4121  4304  5009  5146]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.8148109912872314
+seed4 fold5/10###############seed4 fold5/10###############seed4 fold5/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.628++0.7++0.736++0.667++0.622++0.695++0.535++4.0++0.0++3.0++3.0++665.419++8.0
+seed4 fold6/10+++++++++++seed4 fold6/10+++++++++++seed4 fold6/10
+before reducing, tr_mi/me/ma=0.0/7.06409248229467e-07/0.489925, va_mi/me/ma=0.0/7.06409165972923e-07/0.351713
+after reducing, tr_mi/me/ma=0.0/0.0006066592932635861/0.489925, va_mi/me/ma=0.0/0.0005687444699139237/0.351713, time_reduce=11.432984352111816
+seed4 fold6/10+++++++++++seed4 fold6/10+++++++++++seed4 fold6/10
+after scale, remained information=5760/5760=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1431  303  399  480  534  468  529  544  541  531]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[12706  2905  3575  3442  4153  4339  4060  4230  4998  5128]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1431  303  399  480  534  468  529  544  541  531]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[12706  2905  3575  3442  4153  4339  4060  4230  4998  5128]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.654856204986572
+seed4 fold6/10###############seed4 fold6/10###############seed4 fold6/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+1.0++0.8++1.0++0.875++0.081++0.434++0.583++3.0++1.0++1.0++5.0++695.751++426.0
+seed4 fold7/10+++++++++++seed4 fold7/10+++++++++++seed4 fold7/10
+before reducing, tr_mi/me/ma=0.0/7.064092408922239e-07/0.489925, va_mi/me/ma=0.0/7.064092277599776e-07/0.330815
+after reducing, tr_mi/me/ma=0.0/0.0005958483413810105/0.489925, va_mi/me/ma=0.0/0.0006154791534345292/0.330815, time_reduce=8.32063603401184
+seed4 fold7/10+++++++++++seed4 fold7/10+++++++++++seed4 fold7/10
+after scale, remained information=5184/5184=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1341  349  329  448  550  423  447  504  456  337]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[11132  3457  3365  4112  4008  4650  4796  4394  5043  5155]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1341  349  329  448  550  423  447  504  456  337]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[11132  3457  3365  4112  4008  4650  4796  4394  5043  5155]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.8754637241363525
+seed4 fold7/10###############seed4 fold7/10###############seed4 fold7/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.874++0.778++0.949++0.8++0.373++0.537++0.55++3.0++1.0++1.0++4.0++715.395++64.0
+seed4 fold8/10+++++++++++seed4 fold8/10+++++++++++seed4 fold8/10
+before reducing, tr_mi/me/ma=0.0/7.06409229999796e-07/0.489925, va_mi/me/ma=0.0/7.064093330534258e-07/0.292702
+after reducing, tr_mi/me/ma=0.0/0.0006036271811895254/0.489925, va_mi/me/ma=0.0/0.0005856872732591049/0.292702, time_reduce=10.215739011764526
+seed4 fold8/10+++++++++++seed4 fold8/10+++++++++++seed4 fold8/10
+after scale, remained information=5184/5184=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1461  291  321  321  359  498  514  463  448  508]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[12384  3448  3320  3996  3714  4333  4535  4263  4992  5127]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1461  291  321  321  359  498  514  463  448  508]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[12384  3448  3320  3996  3714  4333  4535  4263  4992  5127]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.929562568664551
+seed4 fold8/10###############seed4 fold8/10###############seed4 fold8/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.736++0.556++0.846++0.6++0.524++0.654++0.1++2.0++2.0++2.0++3.0++736.592++26.0
+seed4 fold9/10+++++++++++seed4 fold9/10+++++++++++seed4 fold9/10
+before reducing, tr_mi/me/ma=0.0/7.064092516902359e-07/0.489925, va_mi/me/ma=0.0/7.064091233791787e-07/0.453009
+after reducing, tr_mi/me/ma=0.0/0.0005990107307739423/0.489925, va_mi/me/ma=0.0/0.0006377257601771412/0.453009, time_reduce=8.292865991592407
+seed4 fold9/10+++++++++++seed4 fold9/10+++++++++++seed4 fold9/10
+after scale, remained information=5184/5184=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1050  318  340  326  388  485  548  577  537  615]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[12347  3398  3259  3889  3765  4450  4626  4240  4999  5139]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1050  318  340  326  388  485  548  577  537  615]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[12347  3398  3259  3889  3765  4450  4626  4240  4999  5139]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.9133405685424805
+seed4 fold9/10###############seed4 fold9/10###############seed4 fold9/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.621++0.444++0.741++0.35++0.624++0.752++-0.06++3.0++1.0++4.0++1.0++755.146++8.0
+seed4 fold10/10+++++++++++seed4 fold10/10+++++++++++seed4 fold10/10
+before reducing, tr_mi/me/ma=0.0/7.064092269085399e-07/0.453009, va_mi/me/ma=0.0/7.064093629355713e-07/0.489925
+after reducing, tr_mi/me/ma=0.0/0.0006011059946556393/0.453009, va_mi/me/ma=0.0/0.0006010653899573688/0.489925, time_reduce=10.133286952972412
+seed4 fold10/10+++++++++++seed4 fold10/10+++++++++++seed4 fold10/10
+after scale, remained information=5184/5184=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1319  311  398  404  415  447  506  527  357  500]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[13943  3063  2994  3627  3523  4217  4462  4224  4968  5091]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1319  311  398  404  415  447  506  527  357  500]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[13943  3063  2994  3627  3523  4217  4462  4224  4968  5091]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.403045177459717
+seed4 fold10/10###############seed4 fold10/10###############seed4 fold10/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.759++0.889++0.832++0.85++0.565++0.508++0.8++4.0++0.0++1.0++4.0++775.377++16.0
+seed5 fold1/10+++++++++++seed5 fold1/10+++++++++++seed5 fold1/10
+before reducing, tr_mi/me/ma=0.0/7.064092400773446e-07/0.489925, va_mi/me/ma=0.0/7.064092360811826e-07/0.322307
+after reducing, tr_mi/me/ma=0.0/0.0006048829974743904/0.489925, va_mi/me/ma=0.0/0.0005697904737850695/0.322307, time_reduce=8.62519359588623
+seed5 fold1/10+++++++++++seed5 fold1/10+++++++++++seed5 fold1/10
+after scale, remained information=5760/5760=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1472  382  403  435  531  421  472  499  568  577]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[12155  2956  3590  3463  4328  4494  4140  4297  4996  5117]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1472  382  403  435  531  421  472  499  568  577]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[12155  2956  3590  3463  4328  4494  4140  4297  4996  5117]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.631094932556152
+seed5 fold1/10###############seed5 fold1/10###############seed5 fold1/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.767++0.6++0.859++0.72++0.521++0.707++0.2++3.0++2.0++2.0++3.0++794.561++24.0
+seed5 fold2/10+++++++++++seed5 fold2/10+++++++++++seed5 fold2/10
+before reducing, tr_mi/me/ma=0.0/7.064092416601706e-07/0.489925, va_mi/me/ma=0.0/7.064092224688483e-07/0.394823
+after reducing, tr_mi/me/ma=0.0/0.0005961612797298954/0.489925, va_mi/me/ma=0.0/0.0006395686985159896/0.394823, time_reduce=7.787377595901489
+seed5 fold2/10+++++++++++seed5 fold2/10+++++++++++seed5 fold2/10
+after scale, remained information=5760/5760=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1531  325  425  451  547  451  485  445  556  544]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[14165  2691  3324  3208  3949  4135  3879  4130  4936  5119]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1531  325  425  451  547  451  485  445  556  544]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[14165  2691  3324  3208  3949  4135  3879  4130  4936  5119]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.8404974937438965
+seed5 fold2/10###############seed5 fold2/10###############seed5 fold2/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.849++0.7++0.931++0.76++0.407++0.575++0.408++3.0++2.0++1.0++4.0++814.477++54.0
+seed5 fold3/10+++++++++++seed5 fold3/10+++++++++++seed5 fold3/10
+before reducing, tr_mi/me/ma=0.0/7.064092427219533e-07/0.489925, va_mi/me/ma=0.0/7.06409213337512e-07/0.341177
+after reducing, tr_mi/me/ma=0.0/0.0005970912444316497/0.489925, va_mi/me/ma=0.0/0.0006209698472278299/0.341177, time_reduce=8.402068614959717
+seed5 fold3/10+++++++++++seed5 fold3/10+++++++++++seed5 fold3/10
+after scale, remained information=5760/5760=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1441  414  426  484  481  488  539  510  501  476]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[10885  3310  3979  3764  4424  4533  4163  4305  5037  5136]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1441  414  426  484  481  488  539  510  501  476]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[10885  3310  3979  3764  4424  4533  4163  4305  5037  5136]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.839312791824341
+seed5 fold3/10###############seed5 fold3/10###############seed5 fold3/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.872++0.8++0.944++0.76++0.382++0.553++0.655++5.0++0.0++2.0++3.0++835.623++82.0
+seed5 fold4/10+++++++++++seed5 fold4/10+++++++++++seed5 fold4/10
+before reducing, tr_mi/me/ma=0.0/7.064092334078672e-07/0.489925, va_mi/me/ma=0.0/7.064092934386558e-07/0.313834
+after reducing, tr_mi/me/ma=0.0/0.0006098764816400456/0.489925, va_mi/me/ma=0.0/0.000561694890062257/0.313834, time_reduce=8.166836500167847
+seed5 fold4/10+++++++++++seed5 fold4/10+++++++++++seed5 fold4/10
+after scale, remained information=5760/5760=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1633  509  510  485  541  499  437  331  295  520]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[10372  3184  3889  3705  4609  4780  4340  4431  5073  5153]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1633  509  510  485  541  499  437  331  295  520]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[10372  3184  3889  3705  4609  4780  4340  4431  5073  5153]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.602743864059448
+seed5 fold4/10###############seed5 fold4/10###############seed5 fold4/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.849++0.7++0.889++0.792++0.47++0.597++0.408++3.0++1.0++2.0++4.0++855.193++30.0
+seed5 fold5/10+++++++++++seed5 fold5/10+++++++++++seed5 fold5/10
+before reducing, tr_mi/me/ma=0.0/7.064092347555962e-07/0.489925, va_mi/me/ma=0.0/7.064092818482063e-07/0.362576
+after reducing, tr_mi/me/ma=0.0/0.0006002715177626049/0.489925, va_mi/me/ma=0.0/0.0006006323055744792/0.362576, time_reduce=11.42075800895691
+seed5 fold5/10+++++++++++seed5 fold5/10+++++++++++seed5 fold5/10
+after scale, remained information=5760/5760=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1366  482  446  384  355  435  568  586  624  514]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[12066  3064  3710  3530  4250  4402  4094  4302  5000  5118]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1366  482  446  384  355  435  568  586  624  514]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[12066  3064  3710  3530  4250  4402  4094  4302  5000  5118]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.918371200561523
+seed5 fold5/10###############seed5 fold5/10###############seed5 fold5/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.64++0.5++0.735++0.333++0.644++0.766++0.0++2.0++2.0++3.0++3.0++877.479++6.0
+seed5 fold6/10+++++++++++seed5 fold6/10+++++++++++seed5 fold6/10
+before reducing, tr_mi/me/ma=0.0/7.064092502634346e-07/0.489925, va_mi/me/ma=0.0/7.064091484807951e-07/0.315318
+after reducing, tr_mi/me/ma=0.0/0.0006030209258626271/0.489925, va_mi/me/ma=0.0/0.0005826146336395487/0.315318, time_reduce=8.23972773551941
+seed5 fold6/10+++++++++++seed5 fold6/10+++++++++++seed5 fold6/10
+after scale, remained information=5760/5760=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1508  275  367  418  424  505  546  606  547  564]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[13916  2655  3304  3186  4010  4266  3965  4150  4968  5116]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1508  275  367  418  424  505  546  606  547  564]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[13916  2655  3304  3186  4010  4266  3965  4150  4968  5116]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=5.082159042358398
+seed5 fold6/10###############seed5 fold6/10###############seed5 fold6/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.872++0.6++0.94++0.833++0.377++0.461++0.167++2.0++2.0++2.0++4.0++899.248++80.0
+seed5 fold7/10+++++++++++seed5 fold7/10+++++++++++seed5 fold7/10
+before reducing, tr_mi/me/ma=0.0/7.064092486842813e-07/0.489925, va_mi/me/ma=0.0/7.064091524367491e-07/0.338953
+after reducing, tr_mi/me/ma=0.0/0.0006023744779255448/0.489925, va_mi/me/ma=0.0/0.0006140384387217013/0.338953, time_reduce=10.540186643600464
+seed5 fold7/10+++++++++++seed5 fold7/10+++++++++++seed5 fold7/10
+after scale, remained information=5184/5184=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1164  312  294  386  445  517  512  568  520  466]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[11483  3565  3417  4103  3864  4471  4680  4340  5050  5139]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1164  312  294  386  445  517  512  568  520  466]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[11483  3565  3417  4103  3864  4471  4680  4340  5050  5139]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.5931572914123535
+seed5 fold7/10###############seed5 fold7/10###############seed5 fold7/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.713++0.556++0.784++0.5++0.6++0.744++0.1++2.0++2.0++2.0++3.0++920.863++8.0
+seed5 fold8/10+++++++++++seed5 fold8/10+++++++++++seed5 fold8/10
+before reducing, tr_mi/me/ma=0.0/7.06409243953775e-07/0.453009, va_mi/me/ma=0.0/7.064091981649559e-07/0.489925
+after reducing, tr_mi/me/ma=0.0/0.000599991133253514/0.453009, va_mi/me/ma=0.0/0.0005896354006498649/0.489925, time_reduce=8.92313838005066
+seed5 fold8/10+++++++++++seed5 fold8/10+++++++++++seed5 fold8/10
+after scale, remained information=5184/5184=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1395  195  349  363  447  439  494  540  492  470]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[14750  2861  2778  3408  3421  4131  4445  4231  4989  5098]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1395  195  349  363  447  439  494  540  492  470]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[14750  2861  2778  3408  3421  4131  4445  4231  4989  5098]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.953329563140869
+seed5 fold8/10###############seed5 fold8/10###############seed5 fold8/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+1.0++1.0++1.0++1.0++0.08++0.245++1.0++4.0++0.0++0.0++5.0++952.073++500.0
+seed5 fold9/10+++++++++++seed5 fold9/10+++++++++++seed5 fold9/10
+before reducing, tr_mi/me/ma=0.0/7.06409229744696e-07/0.489925, va_mi/me/ma=0.0/7.06409335519399e-07/0.330815
+after reducing, tr_mi/me/ma=0.0/0.0006028139858547454/0.489925, va_mi/me/ma=0.0/0.0005812936780044368/0.330815, time_reduce=9.213883876800537
+seed5 fold9/10+++++++++++seed5 fold9/10+++++++++++seed5 fold9/10
+after scale, remained information=5184/5184=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1510  237  257  328  435  487  431  462  539  498]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[13807  3089  2988  3623  3524  4210  4496  4248  4989  5138]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1510  237  257  328  435  487  431  462  539  498]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[13807  3089  2988  3623  3524  4210  4496  4248  4989  5138]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=5.139927625656128
+seed5 fold9/10###############seed5 fold9/10###############seed5 fold9/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.678++0.667++0.809++0.85++0.573++0.584++0.395++1.0++3.0++0.0++5.0++973.167++14.0
+seed5 fold10/10+++++++++++seed5 fold10/10+++++++++++seed5 fold10/10
+before reducing, tr_mi/me/ma=0.0/7.064092313981843e-07/0.489925, va_mi/me/ma=0.0/7.064093195357126e-07/0.453009
+after reducing, tr_mi/me/ma=0.0/0.0005998250408831996/0.489925, va_mi/me/ma=0.0/0.0006319074462687694/0.453009, time_reduce=7.429224014282227
+seed5 fold10/10+++++++++++seed5 fold10/10+++++++++++seed5 fold10/10
+after scale, remained information=5184/5184=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1460  364  348  313  327  349  421  432  504  666]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[12467  3478  3320  3969  3718  4325  4527  4233  4973  5102]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1460  364  348  313  327  349  421  432  504  666]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[12467  3478  3320  3969  3718  4325  4527  4233  4973  5102]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.337141752243042
+seed5 fold10/10###############seed5 fold10/10###############seed5 fold10/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.793++0.778++0.884++0.8++0.473++0.548++0.55++3.0++1.0++1.0++4.0++992.575++43.0
+seed6 fold1/10+++++++++++seed6 fold1/10+++++++++++seed6 fold1/10
+before reducing, tr_mi/me/ma=0.0/7.064092302164053e-07/0.489925, va_mi/me/ma=0.0/7.064093208852644e-07/0.453009
+after reducing, tr_mi/me/ma=0.0/0.0006002348857036943/0.489925, va_mi/me/ma=0.0/0.0006149419619868576/0.453009, time_reduce=9.738548278808594
+seed6 fold1/10+++++++++++seed6 fold1/10+++++++++++seed6 fold1/10
+after scale, remained information=5760/5760=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1700  350  315  343  378  420  459  478  510  807]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[12910  2897  3544  3405  4100  4296  4021  4232  5003  5128]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1700  350  315  343  378  420  459  478  510  807]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[12910  2897  3544  3405  4100  4296  4021  4232  5003  5128]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.9795918464660645
+seed6 fold1/10###############seed6 fold1/10###############seed6 fold1/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+1.0++0.8++1.0++1.0++0.073++0.337++0.655++3.0++2.0++0.0++5.0++1026.63++500.0
+seed6 fold2/10+++++++++++seed6 fold2/10+++++++++++seed6 fold2/10
+before reducing, tr_mi/me/ma=0.0/7.064092463945359e-07/0.489925, va_mi/me/ma=0.0/7.064091817533079e-07/0.34266599999999997
+after reducing, tr_mi/me/ma=0.0/0.0005991769762773115/0.489925, va_mi/me/ma=0.0/0.000611143012763125/0.34266599999999997, time_reduce=8.049213886260986
+seed6 fold2/10+++++++++++seed6 fold2/10+++++++++++seed6 fold2/10
+after scale, remained information=5760/5760=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1488  254  277  334  458  521  482  655  714  577]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[13008  2830  3447  3323  4104  4346  4062  4281  5000  5135]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1488  254  277  334  458  521  482  655  714  577]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[13008  2830  3447  3323  4104  4346  4062  4281  5000  5135]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.661782741546631
+seed6 fold2/10###############seed6 fold2/10###############seed6 fold2/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.791++0.7++0.901++0.84++0.472++0.546++0.408++4.0++1.0++2.0++3.0++1046.656++34.0
+seed6 fold3/10+++++++++++seed6 fold3/10+++++++++++seed6 fold3/10
+before reducing, tr_mi/me/ma=0.0/7.064092399760094e-07/0.453009, va_mi/me/ma=0.0/7.064092369526453e-07/0.489925
+after reducing, tr_mi/me/ma=0.0/0.0006007856872732315/0.453009, va_mi/me/ma=0.0/0.0006146994374509027/0.489925, time_reduce=8.413895606994629
+seed6 fold3/10+++++++++++seed6 fold3/10+++++++++++seed6 fold3/10
+after scale, remained information=5760/5760=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1457  284  352  438  483  508  577  561  598  502]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[13427  2780  3405  3286  4075  4308  4027  4173  4940  5115]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1457  284  352  438  483  508  577  561  598  502]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[13427  2780  3405  3286  4075  4308  4027  4173  4940  5115]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=5.24862265586853
+seed6 fold3/10###############seed6 fold3/10###############seed6 fold3/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.779++0.5++0.856++0.6++0.556++0.697++0.0++1.0++4.0++1.0++4.0++1067.862++12.0
+seed6 fold4/10+++++++++++seed6 fold4/10+++++++++++seed6 fold4/10
+before reducing, tr_mi/me/ma=0.0/7.064092384606005e-07/0.489925, va_mi/me/ma=0.0/7.064092499851607e-07/0.35940700000000003
+after reducing, tr_mi/me/ma=0.0/0.000600774893724996/0.489925, va_mi/me/ma=0.0/0.0005727240741498091/0.35940700000000003, time_reduce=10.5678129196167
+seed6 fold4/10+++++++++++seed6 fold4/10+++++++++++seed6 fold4/10
+after scale, remained information=5760/5760=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1585  336  362  334  483  455  503  514  505  683]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[13010  2989  3602  3433  4095  4258  3941  4131  4961  5116]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1585  336  362  334  483  455  503  514  505  683]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[13010  2989  3602  3433  4095  4258  3941  4131  4961  5116]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.591558218002319
+seed6 fold4/10###############seed6 fold4/10###############seed6 fold4/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.919++0.8++0.989++0.875++0.264++0.461++0.667++4.0++0.0++2.0++4.0++1093.159++146.0
+seed6 fold5/10+++++++++++seed6 fold5/10+++++++++++seed6 fold5/10
+before reducing, tr_mi/me/ma=0.0/7.064092422165253e-07/0.489925, va_mi/me/ma=0.0/7.064092176842177e-07/0.341177
+after reducing, tr_mi/me/ma=0.0/0.0006061134505645994/0.489925, va_mi/me/ma=0.0/0.0005649873436114756/0.341177, time_reduce=8.286388158798218
+seed6 fold5/10+++++++++++seed6 fold5/10+++++++++++seed6 fold5/10
+after scale, remained information=5760/5760=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1788  357  404  371  419  374  443  541  514  549]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[13296  2789  3437  3322  4044  4209  3992  4277  5026  5144]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1788  357  404  371  419  374  443  541  514  549]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[13296  2789  3437  3322  4044  4209  3992  4277  5026  5144]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.898603200912476
+seed6 fold5/10###############seed6 fold5/10###############seed6 fold5/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.674++0.5++0.8++0.542++0.582++0.71++-0.089++1.0++3.0++2.0++4.0++1114.1++10.0
+seed6 fold6/10+++++++++++seed6 fold6/10+++++++++++seed6 fold6/10
+before reducing, tr_mi/me/ma=0.0/7.064092391958364e-07/0.489925, va_mi/me/ma=0.0/7.064092436621146e-07/0.351713
+after reducing, tr_mi/me/ma=0.0/0.0005990032741884548/0.489925, va_mi/me/ma=0.0/0.0006110930099827604/0.351713, time_reduce=10.241727590560913
+seed6 fold6/10+++++++++++seed6 fold6/10+++++++++++seed6 fold6/10
+after scale, remained information=5760/5760=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1399  373  429  481  499  448  492  503  619  517]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[13134  2843  3446  3296  4080  4305  4024  4268  5020  5120]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1399  373  429  481  499  448  492  503  619  517]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[13134  2843  3446  3296  4080  4305  4024  4268  5020  5120]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.450899362564087
+seed6 fold6/10###############seed6 fold6/10###############seed6 fold6/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.756++0.5++0.865++0.625++0.541++0.694++0.0++2.0++2.0++3.0++3.0++1136.52++17.0
+seed6 fold7/10+++++++++++seed6 fold7/10+++++++++++seed6 fold7/10
+before reducing, tr_mi/me/ma=0.0/7.064092479237919e-07/0.489925, va_mi/me/ma=0.0/7.064091597881569e-07/0.323728
+after reducing, tr_mi/me/ma=0.0/0.0005999148657532248/0.489925, va_mi/me/ma=0.0/0.0006015563232389082/0.323728, time_reduce=8.007453441619873
+seed6 fold7/10+++++++++++seed6 fold7/10+++++++++++seed6 fold7/10
+after scale, remained information=5184/5184=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1161  342  450  406  414  441  451  465  576  478]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[11297  3617  3485  4186  3900  4469  4648  4303  5054  5153]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1161  342  450  406  414  441  451  465  576  478]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[11297  3617  3485  4186  3900  4469  4648  4303  5054  5153]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.430416822433472
+seed6 fold7/10###############seed6 fold7/10###############seed6 fold7/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.977++0.778++0.999++0.8++0.189++0.633++0.632++4.0++0.0++2.0++3.0++1161.854++251.0
+seed6 fold8/10+++++++++++seed6 fold8/10+++++++++++seed6 fold8/10
+before reducing, tr_mi/me/ma=0.0/7.064092357919293e-07/0.489925, va_mi/me/ma=0.0/7.06409277062827e-07/0.394823
+after reducing, tr_mi/me/ma=0.0/0.0006070490082945123/0.489925, va_mi/me/ma=0.0/0.0005631473889717014/0.394823, time_reduce=7.027008056640625
+seed6 fold8/10+++++++++++seed6 fold8/10+++++++++++seed6 fold8/10
+after scale, remained information=5184/5184=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1049  422  476  468  467  511  469  386  433  503]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[11051  3613  3511  4177  3943  4585  4726  4334  5031  5141]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1049  422  476  468  467  511  469  386  433  503]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[11051  3613  3511  4177  3943  4585  4726  4334  5031  5141]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=5.0650529861450195
+seed6 fold8/10###############seed6 fold8/10###############seed6 fold8/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.736++0.444++0.822++0.35++0.565++0.775++-0.158++1.0++3.0++2.0++3.0++1181.992++11.0
+seed6 fold9/10+++++++++++seed6 fold9/10+++++++++++seed6 fold9/10
+before reducing, tr_mi/me/ma=0.0/7.064092428060485e-07/0.489925, va_mi/me/ma=0.0/7.064092092596732e-07/0.338953
+after reducing, tr_mi/me/ma=0.0/0.0005975534996925069/0.489925, va_mi/me/ma=0.0/0.0006080799541665703/0.338953, time_reduce=9.720655679702759
+seed6 fold9/10+++++++++++seed6 fold9/10+++++++++++seed6 fold9/10
+after scale, remained information=5184/5184=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1723  307  276  359  305  472  451  477  478  336]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[14798  2795  2789  3434  3423  4082  4469  4242  4963  5117]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1723  307  276  359  305  472  451  477  478  336]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[14798  2795  2789  3434  3423  4082  4469  4242  4963  5117]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.6772332191467285
+seed6 fold9/10###############seed6 fold9/10###############seed6 fold9/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.989++0.778++1.0++0.7++0.171++0.603++0.598++2.0++2.0++0.0++5.0++1210.468++261.0
+seed6 fold10/10+++++++++++seed6 fold10/10+++++++++++seed6 fold10/10
+before reducing, tr_mi/me/ma=0.0/7.064092336117584e-07/0.489925, va_mi/me/ma=0.0/7.064092981378125e-07/0.36454200000000003
+after reducing, tr_mi/me/ma=0.0/0.0005980152066143559/0.489925, va_mi/me/ma=0.0/0.0006300089447520256/0.36454200000000003, time_reduce=9.941049575805664
+seed6 fold10/10+++++++++++seed6 fold10/10+++++++++++seed6 fold10/10
+after scale, remained information=5184/5184=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1356  387  380  391  391  403  381  477  428  590]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[13523  3158  3056  3745  3658  4277  4472  4198  4932  5093]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1356  387  380  391  391  403  381  477  428  590]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[13523  3158  3056  3745  3658  4277  4472  4198  4932  5093]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=5.272242546081543
+seed6 fold10/10###############seed6 fold10/10###############seed6 fold10/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.943++0.778++0.987++1.0++0.275++0.523++0.632++4.0++0.0++2.0++3.0++1236.755++140.0
+seed7 fold1/10+++++++++++seed7 fold1/10+++++++++++seed7 fold1/10
+before reducing, tr_mi/me/ma=0.0/7.06409228880316e-07/0.489925, va_mi/me/ma=0.0/7.06409332375635e-07/0.341177
+after reducing, tr_mi/me/ma=0.0/0.0006030124397908895/0.489925, va_mi/me/ma=0.0/0.0005980669856755035/0.341177, time_reduce=10.483211755752563
+seed7 fold1/10+++++++++++seed7 fold1/10+++++++++++seed7 fold1/10
+after scale, remained information=5760/5760=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1529  462  460  491  487  447  502  511  403  468]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[12138  3034  3747  3568  4264  4439  4080  4235  4946  5085]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1529  462  460  491  487  447  502  511  403  468]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[12138  3034  3747  3568  4264  4439  4080  4235  4946  5085]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.787628173828125
+seed7 fold1/10###############seed7 fold1/10###############seed7 fold1/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.86++0.6++0.935++0.76++0.389++0.582++0.218++4.0++1.0++3.0++2.0++1261.794++59.0
+seed7 fold2/10+++++++++++seed7 fold2/10+++++++++++seed7 fold2/10
+before reducing, tr_mi/me/ma=0.0/7.064092279251108e-07/0.489925, va_mi/me/ma=0.0/7.064093405903412e-07/0.323728
+after reducing, tr_mi/me/ma=0.0/0.0006091747819985203/0.489925, va_mi/me/ma=0.0/0.0005680143150042535/0.323728, time_reduce=7.139406681060791
+seed7 fold2/10+++++++++++seed7 fold2/10+++++++++++seed7 fold2/10
+after scale, remained information=5760/5760=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1818  513  454  497  444  435  420  414  393  372]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[10186  3207  3892  3695  4612  4825  4369  4461  5125  5164]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1818  513  454  497  444  435  420  414  393  372]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[10186  3207  3892  3695  4612  4825  4369  4461  5125  5164]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.470067977905273
+seed7 fold2/10###############seed7 fold2/10###############seed7 fold2/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.791++0.5++0.895++0.68++0.476++0.678++0.0++3.0++2.0++3.0++2.0++1282.218++36.0
+seed7 fold3/10+++++++++++seed7 fold3/10+++++++++++seed7 fold3/10
+before reducing, tr_mi/me/ma=0.0/7.064092475556842e-07/0.489925, va_mi/me/ma=0.0/7.064091717674512e-07/0.362576
+after reducing, tr_mi/me/ma=0.0/0.0005953930593313127/0.489925, va_mi/me/ma=0.0/0.000623011409023889/0.362576, time_reduce=7.2255096435546875
+seed7 fold3/10+++++++++++seed7 fold3/10+++++++++++seed7 fold3/10
+after scale, remained information=5760/5760=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1737  358  376  385  446  407  458  513  536  544]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[14454  2718  3322  3183  3795  3984  3855  4201  4934  5090]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1737  358  376  385  446  407  458  513  536  544]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[14454  2718  3322  3183  3795  3984  3855  4201  4934  5090]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=5.049455165863037
+seed7 fold3/10###############seed7 fold3/10###############seed7 fold3/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.837++0.6++0.887++0.76++0.49++0.614++0.218++2.0++3.0++1.0++4.0++1304.25++36.0
+seed7 fold4/10+++++++++++seed7 fold4/10+++++++++++seed7 fold4/10
+before reducing, tr_mi/me/ma=0.0/7.064092289840047e-07/0.489925, va_mi/me/ma=0.0/7.064093314838901e-07/0.33034
+after reducing, tr_mi/me/ma=0.0/0.0006058415417325683/0.489925, va_mi/me/ma=0.0/0.000576432275407743/0.33034, time_reduce=7.7077953815460205
+seed7 fold4/10+++++++++++seed7 fold4/10+++++++++++seed7 fold4/10
+after scale, remained information=5760/5760=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1297  380  380  467  479  546  493  498  645  575]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[11299  3177  3837  3657  4364  4557  4176  4307  5013  5149]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1297  380  380  467  479  546  493  498  645  575]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[11299  3177  3837  3657  4364  4557  4176  4307  5013  5149]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.628738880157471
+seed7 fold4/10###############seed7 fold4/10###############seed7 fold4/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.674++0.3++0.75++0.417++0.627++0.744++-0.535++0.0++4.0++3.0++3.0++1325.695++8.0
+seed7 fold5/10+++++++++++seed7 fold5/10+++++++++++seed7 fold5/10
+before reducing, tr_mi/me/ma=0.0/7.064092374894497e-07/0.489925, va_mi/me/ma=0.0/7.064092583370791e-07/0.394823
+after reducing, tr_mi/me/ma=0.0/0.0006021494386888224/0.489925, va_mi/me/ma=0.0/0.0006202739290683856/0.394823, time_reduce=10.048881530761719
+seed7 fold5/10+++++++++++seed7 fold5/10+++++++++++seed7 fold5/10
+after scale, remained information=5760/5760=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1312  315  435  505  554  595  535  529  525  455]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[12092  3068  3715  3540  4206  4363  4084  4290  5033  5145]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1312  315  435  505  554  595  535  529  525  455]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[12092  3068  3715  3540  4206  4363  4084  4290  5033  5145]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.590073823928833
+seed7 fold5/10###############seed7 fold5/10###############seed7 fold5/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.767++0.7++0.847++0.625++0.534++0.67++0.356++2.0++2.0++1.0++5.0++1349.198++16.0
+seed7 fold6/10+++++++++++seed7 fold6/10+++++++++++seed7 fold6/10
+before reducing, tr_mi/me/ma=0.0/7.064092538687424e-07/0.453009, va_mi/me/ma=0.0/7.064091174751174e-07/0.489925
+after reducing, tr_mi/me/ma=0.0/0.0005962447170654413/0.453009, va_mi/me/ma=0.0/0.0006317029807676215/0.489925, time_reduce=7.010576248168945
+seed7 fold6/10+++++++++++seed7 fold6/10+++++++++++seed7 fold6/10
+after scale, remained information=5760/5760=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1457  262  359  457  485  496  546  546  605  547]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[12947  2824  3500  3367  4141  4369  4037  4223  5001  5127]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1457  262  359  457  485  496  546  546  605  547]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[12947  2824  3500  3367  4141  4369  4037  4223  5001  5127]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.45196008682251
+seed7 fold6/10###############seed7 fold6/10###############seed7 fold6/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.907++0.7++0.951++0.792++0.369++0.541++0.535++4.0++0.0++3.0++3.0++1371.542++67.0
+seed7 fold7/10+++++++++++seed7 fold7/10+++++++++++seed7 fold7/10
+before reducing, tr_mi/me/ma=0.0/7.064092495566334e-07/0.489925, va_mi/me/ma=0.0/7.064091440040179e-07/0.35940700000000003
+after reducing, tr_mi/me/ma=0.0/0.0005983653343774605/0.489925, va_mi/me/ma=0.0/0.000581991114610706/0.35940700000000003, time_reduce=9.113154888153076
+seed7 fold7/10+++++++++++seed7 fold7/10+++++++++++seed7 fold7/10
+after scale, remained information=5184/5184=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1447  238  298  298  403  408  470  496  479  647]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[14751  3001  2926  3530  3420  4029  4327  4138  4896  5094]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1447  238  298  298  403  408  470  496  479  647]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[14751  3001  2926  3530  3420  4029  4327  4138  4896  5094]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=5.114912986755371
+seed7 fold7/10###############seed7 fold7/10###############seed7 fold7/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+1.0++0.889++1.0++1.0++0.088++0.289++0.791++3.0++1.0++0.0++5.0++1407.749++500.0
+seed7 fold8/10+++++++++++seed7 fold8/10+++++++++++seed7 fold8/10
+before reducing, tr_mi/me/ma=0.0/7.06409249240363e-07/0.489925, va_mi/me/ma=0.0/7.064091470612989e-07/0.307895
+after reducing, tr_mi/me/ma=0.0/0.000606207918735728/0.489925, va_mi/me/ma=0.0/0.0005594113087091049/0.307895, time_reduce=7.087247371673584
+seed7 fold8/10+++++++++++seed7 fold8/10+++++++++++seed7 fold8/10
+after scale, remained information=5184/5184=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1254  328  341  356  373  387  472  503  623  547]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[12476  3480  3298  3943  3708  4298  4522  4244  5008  5135]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1254  328  341  356  373  387  472  503  623  547]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[12476  3480  3298  3943  3708  4298  4522  4244  5008  5135]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.604820966720581
+seed7 fold8/10###############seed7 fold8/10###############seed7 fold8/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.839++0.667++0.905++0.9++0.454++0.569++0.316++2.0++2.0++1.0++4.0++1429.708++48.0
+seed7 fold9/10+++++++++++seed7 fold9/10+++++++++++seed7 fold9/10
+before reducing, tr_mi/me/ma=0.0/7.064092398271014e-07/0.489925, va_mi/me/ma=0.0/7.064092380561872e-07/0.453009
+after reducing, tr_mi/me/ma=0.0/0.0006006398254221584/0.489925, va_mi/me/ma=0.0/0.0006103830372388118/0.453009, time_reduce=9.744226217269897
+seed7 fold9/10+++++++++++seed7 fold9/10+++++++++++seed7 fold9/10
+after scale, remained information=5184/5184=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1450  392  326  347  376  380  348  377  490  698]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[12820  3219  3133  3804  3737  4395  4625  4253  5002  5124]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1450  392  326  347  376  380  348  377  490  698]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[12820  3219  3133  3804  3737  4395  4625  4253  5002  5124]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.629158020019531
+seed7 fold9/10###############seed7 fold9/10###############seed7 fold9/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.713++0.667++0.819++0.8++0.582++0.602++0.316++2.0++2.0++1.0++4.0++1454.095++10.0
+seed7 fold10/10+++++++++++seed7 fold10/10+++++++++++seed7 fold10/10
+before reducing, tr_mi/me/ma=0.0/7.064092331309016e-07/0.489925, va_mi/me/ma=0.0/7.064093027860749e-07/0.36454200000000003
+after reducing, tr_mi/me/ma=0.0/0.0005959041091693646/0.489925, va_mi/me/ma=0.0/0.0006173089695484182/0.36454200000000003, time_reduce=8.96633243560791
+seed7 fold10/10+++++++++++seed7 fold10/10+++++++++++seed7 fold10/10
+after scale, remained information=5184/5184=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1193  245  370  336  417  490  549  646  500  438]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[13405  3177  3060  3707  3594  4278  4524  4252  4997  5118]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1193  245  370  336  417  490  549  646  500  438]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[13405  3177  3060  3707  3594  4278  4524  4252  4997  5118]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.605085849761963
+seed7 fold10/10###############seed7 fold10/10###############seed7 fold10/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.77++0.556++0.88++0.7++0.503++0.611++0.06++1.0++3.0++1.0++4.0++1477.5++29.0
+seed8 fold1/10+++++++++++seed8 fold1/10+++++++++++seed8 fold1/10
+before reducing, tr_mi/me/ma=0.0/7.064092216024893e-07/0.489925, va_mi/me/ma=0.0/7.064093949649262e-07/0.29304
+after reducing, tr_mi/me/ma=0.0/0.0006016382133849443/0.489925, va_mi/me/ma=0.0/0.0005951403021413021/0.29304, time_reduce=8.464393854141235
+seed8 fold1/10+++++++++++seed8 fold1/10+++++++++++seed8 fold1/10
+after scale, remained information=5760/5760=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1399  350  365  379  414  461  580  618  623  571]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[13121  2845  3428  3257  4105  4373  4060  4224  4985  5138]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1399  350  365  379  414  461  580  618  623  571]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[13121  2845  3428  3257  4105  4373  4060  4224  4985  5138]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=5.223299503326416
+seed8 fold1/10###############seed8 fold1/10###############seed8 fold1/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.686++0.5++0.833++0.6++0.589++0.695++0.0++1.0++4.0++1.0++4.0++1501.163++6.0
+seed8 fold2/10+++++++++++seed8 fold2/10+++++++++++seed8 fold2/10
+before reducing, tr_mi/me/ma=0.0/7.064092346260807e-07/0.453009, va_mi/me/ma=0.0/7.064092829620105e-07/0.489925
+after reducing, tr_mi/me/ma=0.0/0.0005981910016697755/0.453009, va_mi/me/ma=0.0/0.0006376825521611633/0.489925, time_reduce=8.761329412460327
+seed8 fold2/10+++++++++++seed8 fold2/10+++++++++++seed8 fold2/10
+after scale, remained information=5760/5760=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1468  421  422  460  488  464  495  488  488  566]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[12148  3061  3742  3611  4269  4411  4046  4207  4943  5098]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1468  421  422  460  488  464  495  488  488  566]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[12148  3061  3742  3611  4269  4411  4046  4207  4943  5098]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.972955703735352
+seed8 fold2/10###############seed8 fold2/10###############seed8 fold2/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.884++0.9++0.95++0.96++0.359++0.389++0.816++5.0++0.0++1.0++4.0++1527.016++86.0
+seed8 fold3/10+++++++++++seed8 fold3/10+++++++++++seed8 fold3/10
+before reducing, tr_mi/me/ma=0.0/7.06409244259248e-07/0.489925, va_mi/me/ma=0.0/7.06409200116819e-07/0.453009
+after reducing, tr_mi/me/ma=0.0/0.0005971306256165294/0.489925, va_mi/me/ma=0.0/0.0006214256006069097/0.453009, time_reduce=10.380203485488892
+seed8 fold3/10+++++++++++seed8 fold3/10+++++++++++seed8 fold3/10
+after scale, remained information=5760/5760=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1728  311  360  362  488  467  441  532  518  553]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[13766  2709  3348  3231  3942  4148  3965  4277  5024  5126]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1728  311  360  362  488  467  441  532  518  553]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[13766  2709  3348  3231  3942  4148  3965  4277  5024  5126]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.61683464050293
+seed8 fold3/10###############seed8 fold3/10###############seed8 fold3/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.767++0.4++0.846++0.48++0.556++0.751++-0.218++3.0++2.0++4.0++1.0++1551.765++16.0
+seed8 fold4/10+++++++++++seed8 fold4/10+++++++++++seed8 fold4/10
+before reducing, tr_mi/me/ma=0.0/7.064092485940394e-07/0.489925, va_mi/me/ma=0.0/7.064091628375906e-07/0.351713
+after reducing, tr_mi/me/ma=0.0/0.0006046968379032381/0.489925, va_mi/me/ma=0.0/0.0005721513819041841/0.351713, time_reduce=9.233481168746948
+seed8 fold4/10+++++++++++seed8 fold4/10+++++++++++seed8 fold4/10
+after scale, remained information=5760/5760=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1421  381  372  383  474  488  512  477  516  736]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[12113  3019  3636  3467  4301  4481  4136  4267  4997  5119]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1421  381  372  383  474  488  512  477  516  736]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[12113  3019  3636  3467  4301  4481  4136  4267  4997  5119]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.557396173477173
+seed8 fold4/10###############seed8 fold4/10###############seed8 fold4/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.919++0.7++0.983++0.75++0.265++0.646++0.408++3.0++1.0++2.0++4.0++1580.365++178.0
+seed8 fold5/10+++++++++++seed8 fold5/10+++++++++++seed8 fold5/10
+before reducing, tr_mi/me/ma=0.0/7.064092568698176e-07/0.489925, va_mi/me/ma=0.0/7.064090916658848e-07/0.34266599999999997
+after reducing, tr_mi/me/ma=0.0/0.0006005064687376979/0.489925, va_mi/me/ma=0.0/0.0006132389801840972/0.34266599999999997, time_reduce=7.250725746154785
+seed8 fold5/10+++++++++++seed8 fold5/10+++++++++++seed8 fold5/10
+after scale, remained information=5760/5760=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1557  316  308  441  452  437  460  489  672  628]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[13237  2881  3520  3396  4125  4265  3943  4104  4929  5136]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1557  316  308  441  452  437  460  489  672  628]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[13237  2881  3520  3396  4125  4265  3943  4104  4929  5136]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.878925323486328
+seed8 fold5/10###############seed8 fold5/10###############seed8 fold5/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.779++0.5++0.818++0.667++0.545++0.636++0.0++2.0++2.0++3.0++3.0++1603.012++15.0
+seed8 fold6/10+++++++++++seed8 fold6/10+++++++++++seed8 fold6/10
+before reducing, tr_mi/me/ma=0.0/7.064092495627844e-07/0.489925, va_mi/me/ma=0.0/7.064091545063978e-07/0.35940700000000003
+after reducing, tr_mi/me/ma=0.0/0.0005998980553627221/0.489925, va_mi/me/ma=0.0/0.000602839175830243/0.35940700000000003, time_reduce=8.089168787002563
+seed8 fold6/10+++++++++++seed8 fold6/10+++++++++++seed8 fold6/10
+after scale, remained information=5760/5760=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1368  350  402  453  465  547  582  530  530  533]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[12713  2916  3598  3459  4132  4292  4034  4249  5011  5132]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1368  350  402  453  465  547  582  530  530  533]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[12713  2916  3598  3459  4132  4292  4034  4249  5011  5132]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.653208017349243
+seed8 fold6/10###############seed8 fold6/10###############seed8 fold6/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.791++0.4++0.861++0.375++0.509++0.723++-0.102++3.0++1.0++5.0++1.0++1625.973++15.0
+seed8 fold7/10+++++++++++seed8 fold7/10+++++++++++seed8 fold7/10
+before reducing, tr_mi/me/ma=0.0/7.064092383962115e-07/0.489925, va_mi/me/ma=0.0/7.064092518881104e-07/0.307895
+after reducing, tr_mi/me/ma=0.0/0.0006041944630434168/0.489925, va_mi/me/ma=0.0/0.0005648422354273148/0.307895, time_reduce=8.303396940231323
+seed8 fold7/10+++++++++++seed8 fold7/10+++++++++++seed8 fold7/10
+after scale, remained information=5184/5184=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1232  271  324  419  450  467  522  502  489  508]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[11912  3337  3310  4000  3913  4574  4688  4278  4973  5127]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1232  271  324  419  450  467  522  502  489  508]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[11912  3337  3310  4000  3913  4574  4688  4278  4973  5127]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.750417947769165
+seed8 fold7/10###############seed8 fold7/10###############seed8 fold7/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.839++0.778++0.897++0.8++0.455++0.547++0.598++2.0++2.0++0.0++5.0++1650.123++36.0
+seed8 fold8/10+++++++++++seed8 fold8/10+++++++++++seed8 fold8/10
+before reducing, tr_mi/me/ma=0.0/7.064092360407932e-07/0.489925, va_mi/me/ma=0.0/7.064092746571358e-07/0.362576
+after reducing, tr_mi/me/ma=0.0/0.0006019681185991638/0.489925, va_mi/me/ma=0.0/0.000571148822251659/0.362576, time_reduce=10.999923467636108
+seed8 fold8/10+++++++++++seed8 fold8/10+++++++++++seed8 fold8/10
+after scale, remained information=5184/5184=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1515  430  408  381  404  345  401  425  373  502]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[11925  3386  3282  4014  3905  4508  4669  4303  4996  5124]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1515  430  408  381  404  345  401  425  373  502]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[11925  3386  3282  4014  3905  4508  4669  4303  4996  5124]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=5.516354560852051
+seed8 fold8/10###############seed8 fold8/10###############seed8 fold8/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+1.0++1.0++1.0++1.0++0.075++0.328++1.0++4.0++0.0++0.0++5.0++1690.323++500.0
+seed8 fold9/10+++++++++++seed8 fold9/10+++++++++++seed8 fold9/10
+before reducing, tr_mi/me/ma=0.0/7.06409227157273e-07/0.489925, va_mi/me/ma=0.0/7.064093605311717e-07/0.36454200000000003
+after reducing, tr_mi/me/ma=0.0/0.0006005756007028436/0.489925, va_mi/me/ma=0.0/0.0005975927078086999/0.36454200000000003, time_reduce=12.17773723602295
+seed8 fold9/10+++++++++++seed8 fold9/10+++++++++++seed8 fold9/10
+after scale, remained information=5184/5184=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1451  375  382  380  373  423  395  457  434  514]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[13093  3250  3160  3820  3646  4289  4524  4229  4986  5115]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1451  375  382  380  373  423  395  457  434  514]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[13093  3250  3160  3820  3646  4289  4524  4229  4986  5115]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=5.323906660079956
+seed8 fold9/10###############seed8 fold9/10###############seed8 fold9/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+1.0++0.778++1.0++1.0++0.07++0.286++0.632++4.0++0.0++2.0++3.0++1732.64++500.0
+seed8 fold10/10+++++++++++seed8 fold10/10+++++++++++seed8 fold10/10
+before reducing, tr_mi/me/ma=0.0/7.064092397037252e-07/0.489925, va_mi/me/ma=0.0/7.064092392488104e-07/0.394823
+after reducing, tr_mi/me/ma=0.0/0.0005993917915752035/0.489925, va_mi/me/ma=0.0/0.0006104679683758295/0.394823, time_reduce=9.049776077270508
+seed8 fold10/10+++++++++++seed8 fold10/10+++++++++++seed8 fold10/10
+after scale, remained information=5184/5184=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1274  346  350  387  402  474  511  450  577  413]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[11837  3418  3307  4004  3834  4519  4693  4336  5033  5131]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1274  346  350  387  402  474  511  450  577  413]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[11837  3418  3307  4004  3834  4519  4693  4336  5033  5131]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.636148452758789
+seed8 fold10/10###############seed8 fold10/10###############seed8 fold10/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.701++0.667++0.845++0.75++0.559++0.635++0.35++3.0++1.0++2.0++3.0++1756.893++7.0
+seed9 fold1/10+++++++++++seed9 fold1/10+++++++++++seed9 fold1/10
+before reducing, tr_mi/me/ma=0.0/7.064092297170143e-07/0.489925, va_mi/me/ma=0.0/7.064093251800304e-07/0.34266599999999997
+after reducing, tr_mi/me/ma=0.0/0.0006005385789452438/0.489925, va_mi/me/ma=0.0/0.0006139696078980729/0.34266599999999997, time_reduce=7.961713552474976
+seed9 fold1/10+++++++++++seed9 fold1/10+++++++++++seed9 fold1/10
+after scale, remained information=5760/5760=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1550  455  450  428  392  468  511  472  486  548]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[12561  2889  3491  3354  4236  4495  4149  4279  4972  5110]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1550  455  450  428  392  468  511  472  486  548]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[12561  2889  3491  3354  4236  4495  4149  4279  4972  5110]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=5.000545978546143
+seed9 fold1/10###############seed9 fold1/10###############seed9 fold1/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.756++0.7++0.835++0.76++0.545++0.584++0.408++3.0++2.0++1.0++4.0++1780.875++25.0
+seed9 fold2/10+++++++++++seed9 fold2/10+++++++++++seed9 fold2/10
+before reducing, tr_mi/me/ma=0.0/7.064092496959106e-07/0.489925, va_mi/me/ma=0.0/7.064091533614814e-07/0.35940700000000003
+after reducing, tr_mi/me/ma=0.0/0.000601453711338582/0.489925, va_mi/me/ma=0.0/0.0006060430513500348/0.35940700000000003, time_reduce=8.451101779937744
+seed9 fold2/10+++++++++++seed9 fold2/10+++++++++++seed9 fold2/10
+after scale, remained information=5760/5760=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1499  247  284  401  498  554  665  632  536  444]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[12894  2792  3442  3347  4141  4347  4069  4311  5050  5143]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1499  247  284  401  498  554  665  632  536  444]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[12894  2792  3442  3347  4141  4347  4069  4311  5050  5143]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.827974557876587
+seed9 fold2/10###############seed9 fold2/10###############seed9 fold2/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.884++0.5++0.941++0.72++0.367++0.602++0.0++2.0++3.0++2.0++3.0++1807.478++82.0
+seed9 fold3/10+++++++++++seed9 fold3/10+++++++++++seed9 fold3/10
+before reducing, tr_mi/me/ma=0.0/7.064092517618843e-07/0.489925, va_mi/me/ma=0.0/7.064091355941324e-07/0.322307
+after reducing, tr_mi/me/ma=0.0/0.0006011440991407642/0.489925, va_mi/me/ma=0.0/0.0005700990237012326/0.322307, time_reduce=12.008476734161377
+seed9 fold3/10+++++++++++seed9 fold3/10+++++++++++seed9 fold3/10
+after scale, remained information=5760/5760=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1770  248  372  415  416  404  534  576  519  506]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[15359  2545  3111  3022  3661  3859  3772  4165  4943  5099]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1770  248  372  415  416  404  534  576  519  506]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[15359  2545  3111  3022  3661  3859  3772  4165  4943  5099]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.896784543991089
+seed9 fold3/10###############seed9 fold3/10###############seed9 fold3/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+1.0++0.7++1.0++0.88++0.15++0.461++0.408++3.0++2.0++1.0++4.0++1845.211++353.0
+seed9 fold4/10+++++++++++seed9 fold4/10+++++++++++seed9 fold4/10
+before reducing, tr_mi/me/ma=0.0/7.064092446613956e-07/0.453009, va_mi/me/ma=0.0/7.064091966583096e-07/0.489925
+after reducing, tr_mi/me/ma=0.0/0.0006040112041479994/0.453009, va_mi/me/ma=0.0/0.0006016301063372048/0.489925, time_reduce=7.209762096405029
+seed9 fold4/10+++++++++++seed9 fold4/10+++++++++++seed9 fold4/10
+after scale, remained information=5760/5760=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1169  386  471  504  537  587  570  574  487  475]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[12272  3008  3625  3441  4200  4416  4111  4301  5034  5128]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1169  386  471  504  537  587  570  574  487  475]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[12272  3008  3625  3441  4200  4416  4111  4301  5034  5128]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.866487503051758
+seed9 fold4/10###############seed9 fold4/10###############seed9 fold4/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.907++0.8++0.981++0.75++0.278++0.571++0.667++4.0++0.0++2.0++4.0++1872.638++158.0
+seed9 fold5/10+++++++++++seed9 fold5/10+++++++++++seed9 fold5/10
+before reducing, tr_mi/me/ma=0.0/7.064092271738698e-07/0.489925, va_mi/me/ma=0.0/7.064093470510521e-07/0.394823
+after reducing, tr_mi/me/ma=0.0/0.0006032419993945797/0.489925, va_mi/me/ma=0.0/0.0006105453172906945/0.394823, time_reduce=12.144540786743164
+seed9 fold5/10+++++++++++seed9 fold5/10+++++++++++seed9 fold5/10
+after scale, remained information=5760/5760=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1420  467  446  392  448  486  442  477  573  609]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[12160  2991  3653  3499  4274  4449  4119  4284  4986  5121]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1420  467  446  392  448  486  442  477  573  609]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[12160  2991  3653  3499  4274  4449  4119  4284  4986  5121]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.817392826080322
+seed9 fold5/10###############seed9 fold5/10###############seed9 fold5/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.709++0.3++0.833++0.292++0.593++0.818++-0.408++1.0++3.0++4.0++2.0++1900.975++8.0
+seed9 fold6/10+++++++++++seed9 fold6/10+++++++++++seed9 fold6/10
+before reducing, tr_mi/me/ma=0.0/7.064092186097658e-07/0.489925, va_mi/me/ma=0.0/7.064094207023508e-07/0.36454200000000003
+after reducing, tr_mi/me/ma=0.0/0.000601360198346562/0.489925, va_mi/me/ma=0.0/0.0005979910713071007/0.36454200000000003, time_reduce=8.356969118118286
+seed9 fold6/10+++++++++++seed9 fold6/10+++++++++++seed9 fold6/10
+after scale, remained information=5760/5760=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1674  315  387  387  436  481  464  486  521  609]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[13475  2714  3384  3279  4063  4284  4001  4238  4971  5127]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1674  315  387  387  436  481  464  486  521  609]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[13475  2714  3384  3279  4063  4284  4001  4238  4971  5127]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.858704328536987
+seed9 fold6/10###############seed9 fold6/10###############seed9 fold6/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+1.0++0.8++1.0++0.958++0.083++0.294++0.583++3.0++1.0++1.0++5.0++1939.168++500.0
+seed9 fold7/10+++++++++++seed9 fold7/10+++++++++++seed9 fold7/10
+before reducing, tr_mi/me/ma=0.0/7.064092373965917e-07/0.489925, va_mi/me/ma=0.0/7.064092615510665e-07/0.453009
+after reducing, tr_mi/me/ma=0.0/0.0006027206625866539/0.489925, va_mi/me/ma=0.0/0.0006014842006221644/0.453009, time_reduce=9.076197862625122
+seed9 fold7/10+++++++++++seed9 fold7/10+++++++++++seed9 fold7/10
+after scale, remained information=5184/5184=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1320  329  317  392  456  394  412  462  519  583]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[11942  3494  3347  4049  3784  4413  4621  4295  5026  5141]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1320  329  317  392  456  394  412  462  519  583]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[11942  3494  3347  4049  3784  4413  4621  4295  5026  5141]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.883930444717407
+seed9 fold7/10###############seed9 fold7/10###############seed9 fold7/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.77++0.667++0.856++0.65++0.531++0.628++0.316++2.0++2.0++1.0++4.0++1963.968++25.0
+seed9 fold8/10+++++++++++seed9 fold8/10+++++++++++seed9 fold8/10
+before reducing, tr_mi/me/ma=0.0/7.064092339607894e-07/0.489925, va_mi/me/ma=0.0/7.06409294763827e-07/0.323728
+after reducing, tr_mi/me/ma=0.0/0.0006064896608636454/0.489925, va_mi/me/ma=0.0/0.0005672153763464314/0.323728, time_reduce=9.330482006072998
+seed9 fold8/10+++++++++++seed9 fold8/10+++++++++++seed9 fold8/10
+after scale, remained information=5184/5184=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1376  372  374  417  434  369  403  406  428  605]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[11641  3435  3316  4032  3889  4552  4732  4347  5033  5135]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1376  372  374  417  434  369  403  406  428  605]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[11641  3435  3316  4032  3889  4552  4732  4347  5033  5135]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.7353150844573975
+seed9 fold8/10###############seed9 fold8/10###############seed9 fold8/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.678++0.444++0.769++0.3++0.605++0.836++-0.158++1.0++3.0++2.0++3.0++1988.661++8.0
+seed9 fold9/10+++++++++++seed9 fold9/10+++++++++++seed9 fold9/10
+before reducing, tr_mi/me/ma=0.0/7.064092500348321e-07/0.489925, va_mi/me/ma=0.0/7.064091393814445e-07/0.33034
+after reducing, tr_mi/me/ma=0.0/0.0005964336342889987/0.489925, va_mi/me/ma=0.0/0.000611011091394676/0.33034, time_reduce=8.43395447731018
+seed9 fold9/10+++++++++++seed9 fold9/10+++++++++++seed9 fold9/10
+after scale, remained information=5184/5184=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1405  295  275  303  377  447  455  496  572  559]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[13579  3218  3121  3751  3591  4228  4436  4148  4930  5110]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1405  295  275  303  377  447  455  496  572  559]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[13579  3218  3121  3751  3591  4228  4436  4148  4930  5110]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.9251439571380615
+seed9 fold9/10###############seed9 fold9/10###############seed9 fold9/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.644++0.667++0.766++0.55++0.606++0.682++0.316++2.0++2.0++1.0++4.0++2013.038++10.0
+seed9 fold10/10+++++++++++seed9 fold10/10+++++++++++seed9 fold10/10
+before reducing, tr_mi/me/ma=0.0/7.064092534108102e-07/0.489925, va_mi/me/ma=0.0/7.064091067469679e-07/0.351713
+after reducing, tr_mi/me/ma=0.0/0.0006018348821033824/0.489925, va_mi/me/ma=0.0/0.0006215875391441938/0.351713, time_reduce=9.045034885406494
+seed9 fold10/10+++++++++++seed9 fold10/10+++++++++++seed9 fold10/10
+after scale, remained information=5184/5184=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1431  350  363  365  413  401  459  451  455  496]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[12864  3342  3210  3854  3638  4237  4517  4274  5036  5140]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1431  350  363  365  413  401  459  451  455  496]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[12864  3342  3210  3854  3638  4237  4517  4274  5036  5140]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.561477184295654
+seed9 fold10/10###############seed9 fold10/10###############seed9 fold10/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.724++0.667++0.837++0.55++0.534++0.695++0.316++2.0++2.0++1.0++4.0++2037.741++21.0
+seed10 fold1/10+++++++++++seed10 fold1/10+++++++++++seed10 fold1/10
+before reducing, tr_mi/me/ma=0.0/7.064092395541096e-07/0.489925, va_mi/me/ma=0.0/7.064092405810021e-07/0.301169
+after reducing, tr_mi/me/ma=0.0/0.0006092478716313531/0.489925, va_mi/me/ma=0.0/0.0005792336465573438/0.301169, time_reduce=8.334502696990967
+seed10 fold1/10+++++++++++seed10 fold1/10+++++++++++seed10 fold1/10
+after scale, remained information=5760/5760=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1381  457  396  365  454  470  554  566  581  536]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[11569  3207  3833  3617  4293  4444  4117  4301  5022  5133]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1381  457  396  365  454  470  554  566  581  536]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[11569  3207  3833  3617  4293  4444  4117  4301  5022  5133]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.663627862930298
+seed10 fold1/10###############seed10 fold1/10###############seed10 fold1/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.651++0.3++0.78++0.32++0.605++0.801++-0.5++0.0++5.0++2.0++3.0++2062.276++6.0
+seed10 fold2/10+++++++++++seed10 fold2/10+++++++++++seed10 fold2/10
+before reducing, tr_mi/me/ma=0.0/7.064092322262815e-07/0.36454200000000003, va_mi/me/ma=0.0/7.064093036002992e-07/0.489925
+after reducing, tr_mi/me/ma=0.0/0.0005935277686451328/0.36454200000000003, va_mi/me/ma=0.0/0.0006784356435717708/0.489925, time_reduce=8.279850006103516
+seed10 fold2/10+++++++++++seed10 fold2/10+++++++++++seed10 fold2/10
+after scale, remained information=5760/5760=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1267  265  347  487  580  586  571  600  541  516]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[12880  2921  3551  3405  4102  4274  4025  4261  4997  5120]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1267  265  347  487  580  586  571  600  541  516]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[12880  2921  3551  3405  4102  4274  4025  4261  4997  5120]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.998484134674072
+seed10 fold2/10###############seed10 fold2/10###############seed10 fold2/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.628++0.5++0.707++0.24++0.654++0.817++0.0++2.0++3.0++2.0++3.0++2086.5++7.0
+seed10 fold3/10+++++++++++seed10 fold3/10+++++++++++seed10 fold3/10
+before reducing, tr_mi/me/ma=0.0/7.064092420948849e-07/0.489925, va_mi/me/ma=0.0/7.064092187303369e-07/0.33034
+after reducing, tr_mi/me/ma=0.0/0.0006015067474260397/0.489925, va_mi/me/ma=0.0/0.0005785131813626389/0.33034, time_reduce=8.394315481185913
+seed10 fold3/10+++++++++++seed10 fold3/10+++++++++++seed10 fold3/10
+after scale, remained information=5760/5760=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1499  430  430  477  475  500  567  503  504  375]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[11599  3039  3749  3607  4343  4518  4189  4325  5033  5134]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1499  430  430  477  475  500  567  503  504  375]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[11599  3039  3749  3607  4343  4518  4189  4325  5033  5134]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.625780344009399
+seed10 fold3/10###############seed10 fold3/10###############seed10 fold3/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.814++0.9++0.907++0.8++0.445++0.599++0.816++5.0++0.0++1.0++4.0++2112.406++43.0
+seed10 fold4/10+++++++++++seed10 fold4/10+++++++++++seed10 fold4/10
+before reducing, tr_mi/me/ma=0.0/7.064092325966312e-07/0.489925, va_mi/me/ma=0.0/7.06409300415315e-07/0.319019
+after reducing, tr_mi/me/ma=0.0/0.0006019042173941799/0.489925, va_mi/me/ma=0.0/0.000591870880853507/0.319019, time_reduce=7.962693452835083
+seed10 fold4/10+++++++++++seed10 fold4/10+++++++++++seed10 fold4/10
+after scale, remained information=5760/5760=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1562  306  436  508  447  525  477  478  499  522]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[13603  2644  3291  3196  4012  4311  4052  4271  5023  5133]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1562  306  436  508  447  525  477  478  499  522]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[13603  2644  3291  3196  4012  4311  4052  4271  5023  5133]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.669158935546875
+seed10 fold4/10###############seed10 fold4/10###############seed10 fold4/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.721++0.7++0.839++0.708++0.539++0.59++0.356++2.0++2.0++1.0++5.0++2137.24++18.0
+seed10 fold5/10+++++++++++seed10 fold5/10+++++++++++seed10 fold5/10
+before reducing, tr_mi/me/ma=0.0/7.064092369233069e-07/0.489925, va_mi/me/ma=0.0/7.064092632058902e-07/0.36454200000000003
+after reducing, tr_mi/me/ma=0.0/0.0006050815333201248/0.489925, va_mi/me/ma=0.0/0.0005650453805163021/0.36454200000000003, time_reduce=10.663418054580688
+seed10 fold5/10+++++++++++seed10 fold5/10+++++++++++seed10 fold5/10
+after scale, remained information=5760/5760=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1897  319  351  361  352  382  477  411  487  723]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[13166  2914  3538  3369  4048  4258  3985  4187  4966  5105]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1897  319  351  361  352  382  477  411  487  723]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[13166  2914  3538  3369  4048  4258  3985  4187  4966  5105]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.609086990356445
+seed10 fold5/10###############seed10 fold5/10###############seed10 fold5/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.988++1.0++0.995++1.0++0.213++0.313++1.0++4.0++0.0++0.0++6.0++2170.047++193.0
+seed10 fold6/10+++++++++++seed10 fold6/10+++++++++++seed10 fold6/10
+before reducing, tr_mi/me/ma=0.0/7.064092334439683e-07/0.489925, va_mi/me/ma=0.0/7.064092931282108e-07/0.34266599999999997
+after reducing, tr_mi/me/ma=0.0/0.000605016966177792/0.489925, va_mi/me/ma=0.0/0.0005725139033918576/0.34266599999999997, time_reduce=8.335915803909302
+seed10 fold6/10+++++++++++seed10 fold6/10+++++++++++seed10 fold6/10
+after scale, remained information=5760/5760=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1638  321  385  440  455  410  480  472  470  689]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[13428  2740  3379  3259  4083  4320  4012  4196  4971  5148]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1638  321  385  440  455  410  480  472  470  689]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[13428  2740  3379  3259  4083  4320  4012  4196  4971  5148]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.9415740966796875
+seed10 fold6/10###############seed10 fold6/10###############seed10 fold6/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.93++0.8++0.963++0.875++0.328++0.447++0.583++3.0++1.0++1.0++5.0++2197.614++98.0
+seed10 fold7/10+++++++++++seed10 fold7/10+++++++++++seed10 fold7/10
+before reducing, tr_mi/me/ma=0.0/7.064092430155549e-07/0.489925, va_mi/me/ma=0.0/7.064092072344192e-07/0.330815
+after reducing, tr_mi/me/ma=0.0/0.0006041110253644956/0.489925, va_mi/me/ma=0.0/0.0005781950306040125/0.330815, time_reduce=11.226499795913696
+seed10 fold7/10+++++++++++seed10 fold7/10+++++++++++seed10 fold7/10
+after scale, remained information=5184/5184=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1190  316  356  409  489  502  446  541  524  411]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[11449  3453  3364  4102  3912  4578  4740  4343  5032  5139]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1190  316  356  409  489  502  446  541  524  411]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[11449  3453  3364  4102  3912  4578  4740  4343  5032  5139]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.76424241065979
+seed10 fold7/10###############seed10 fold7/10###############seed10 fold7/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.759++0.556++0.829++0.6++0.551++0.671++0.1++2.0++2.0++2.0++3.0++2225.777++17.0
+seed10 fold8/10+++++++++++seed10 fold8/10+++++++++++seed10 fold8/10
+before reducing, tr_mi/me/ma=0.0/7.064092334362856e-07/0.489925, va_mi/me/ma=0.0/7.064092998340374e-07/0.317499
+after reducing, tr_mi/me/ma=0.0/0.0006023690382387991/0.489925, va_mi/me/ma=0.0/0.0005928992094761767/0.317499, time_reduce=14.011948823928833
+seed10 fold8/10+++++++++++seed10 fold8/10+++++++++++seed10 fold8/10
+after scale, remained information=5184/5184=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1302  333  329  390  385  464  379  438  553  611]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[12876  3334  3190  3874  3680  4272  4534  4243  4985  5124]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1302  333  329  390  385  464  379  438  553  611]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[12876  3334  3190  3874  3680  4272  4534  4243  4985  5124]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=5.123288631439209
+seed10 fold8/10###############seed10 fold8/10###############seed10 fold8/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.989++0.778++0.995++0.8++0.239++0.521++0.55++3.0++1.0++1.0++4.0++2262.667++180.0
+seed10 fold9/10+++++++++++seed10 fold9/10+++++++++++seed10 fold9/10
+before reducing, tr_mi/me/ma=0.0/7.064092511036125e-07/0.489925, va_mi/me/ma=0.0/7.064091290498749e-07/0.35940700000000003
+after reducing, tr_mi/me/ma=0.0/0.0005958209490971484/0.489925, va_mi/me/ma=0.0/0.0006339484691244213/0.35940700000000003, time_reduce=10.789003610610962
+seed10 fold9/10+++++++++++seed10 fold9/10+++++++++++seed10 fold9/10
+after scale, remained information=5184/5184=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1596  320  272  305  333  356  348  528  596  530]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[14132  2990  2930  3587  3500  4182  4470  4237  4968  5116]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1596  320  272  305  333  356  348  528  596  530]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[14132  2990  2930  3587  3500  4182  4470  4237  4968  5116]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=5.0806896686553955
+seed10 fold9/10###############seed10 fold9/10###############seed10 fold9/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.874++0.778++0.951++0.8++0.352++0.545++0.632++4.0++0.0++2.0++3.0++2293.391++81.0
+seed10 fold10/10+++++++++++seed10 fold10/10+++++++++++seed10 fold10/10
+before reducing, tr_mi/me/ma=0.0/7.064092519732812e-07/0.489925, va_mi/me/ma=0.0/7.064091206430955e-07/0.362576
+after reducing, tr_mi/me/ma=0.0/0.0005988779303756624/0.489925, va_mi/me/ma=0.0/0.0006333297939048418/0.362576, time_reduce=8.4277024269104
+seed10 fold10/10+++++++++++seed10 fold10/10+++++++++++seed10 fold10/10
+after scale, remained information=5184/5184=1.0
+max_train=1.0/min_train=0.0/max_val=1.0/min_val=0.0
+[1221  313  399  369  383  491  501  483  465  559]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[14353  3045  2955  3599  3489  4141  4362  4184  4909  5075]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+bins for classification
+[1221  313  399  369  383  491  501  483  465  559]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+[14353  3045  2955  3599  3489  4141  4362  4184  4909  5075]
+[0.  0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1. ]
+time_read_or/and_create_img=4.016907691955566
+seed10 fold10/10###############seed10 fold10/10###############seed10 fold10/10
+after training
+t_acc--v_acc--t_auc--v_auc--t_los--v_los--v_mmc--tn--fp--fn--tp--time--ep_stopped
+0.747++0.667++0.809++0.6++0.587++0.668++0.35++3.0++1.0++2.0++3.0++2319.063++10.0
+time	tr_ac	va_ac	sd	va_au	sd	tn	fn	fp	tp	preci	sd	recall	sd	f1	sd	mmc	sd	epst
+2319.1	0.813	0.645	0.031	0.692	0.039	2.65	1.76	1.65	3.54	0.697	0.038	0.67	0.044	0.666	0.039	0.3	0.061	87.83
+tr_ac_a	sd_ac	va_ac_a	sd_ac	tr_au_a	sd_au	va_au_a	sd_au	va_mc_a	sd_mc
+0.8134562969207764	0.10914277285337448	0.6451111196726561	0.16887295042930361	0.8845477736382691	0.07925279401071379	0.6915833333333333	0.1961342192082872	0.30026128858545803	0.35903019703992045
