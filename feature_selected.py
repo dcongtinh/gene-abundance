@@ -50,11 +50,7 @@ for dataset_name in dataset:
     res_folder = '%s/experiment/__results__/%s/%s_%s%d_10_%s%s_nb%d_auy_%s/' % (machine_path, model_v, scale_mode, algo_redu, new_dim, type_emb, type_bin, num_bin, colormap)
     img_folder = '%s/experiment/__images__/%s/%s_%s%d_10_%s%s_nb%d_auy_%s/' % (machine_path, model_v, scale_mode, algo_redu, new_dim, type_emb, type_bin, num_bin, colormap)
 
-<<<<<<< HEAD
     command = 'python3 %s --save_para y --original_data_folder %s --data_name %s --run_time %d --algo_redu %s --new_dim %d --model %s --auto_v y --parent_folder_results %s --parent_folder_img %s --scale_mode %s --type_bin %s --num_bin %d --type_emb %s -z 255 --channel 1 --colormap %s --log_file %s' % (file_run, path_data, dataset_name, run_time, algo_redu, new_dim, model_v, res_folder, img_folder, scale_mode, type_bin, num_bin, type_emb, colormap, res_folder + 'feature_selected_' + dataset_name + '.txt')
-=======
-    command = 'python3 %s --save_para y --original_data_folder %s --data_name %s --run_time %d --algo_redu %s --new_dim %d --model %s --auto_v y --parent_folder_results %s --parent_folder_img %s --scale_mode %s --type_bin %s --num_bin %d --type_emb %s -z 255 --channel 3 --preprocess_img vgg16 --colormap %s --log_file %s' % (file_run, path_data, dataset_name, run_time, algo_redu, new_dim, model_v, res_folder, img_folder, scale_mode, type_bin, num_bin, type_emb, colormap, res_folder + 'feature_selected_' + dataset_name + '.txt')
->>>>>>> 66fd2cb87bd5ef07ffb3d08c2db13eff5be8f9ee
     
     executeCommand(command)
     os.system('python3 %s -i %s -o %s' % (file_read_results, res_folder, res_folder))

@@ -6,8 +6,8 @@
 #updated: 17g, 07/02/2020
 #path_r = "/data/projects/deepmg/analyses/analyze_res/"
 if (Sys.info()['sysname'] == "Darwin"){
-  path_machine = "/Users/dcongtinh/gene-abundance/experiment/results/excute_time"
-  #path_machine = "/Users/dcongtinh/gene-abundance/experiment/results/fc_model/qtf_pc576_10_fillseqf_nb10_auy_gray"
+  #path_machine = "/Users/dcongtinh/gene-abundance/experiment/results/excute_time"
+  path_machine = "/Users/dcongtinh/gene-abundance/experiment/results/both"
 }else{
   path_machine = "/data/projects/deepmg/"
 } 
@@ -277,8 +277,8 @@ redim[regexpr('ridge', all_results[,"filename"]) >= 1 & is.na(redim)] <- "ridge"
 redim[regexpr('rigde', all_results[,"filename"]) >= 1 & is.na(redim)] <- "ridge"
 redim[regexpr('lasso', all_results[,"filename"]) >= 1 & is.na(redim)] <- "lasso"
 redim[regexpr('vf', all_results[,"filename"]) >= 1 & is.na(redim)] <- "lvf"
-redim[regexpr('raw', all_results[,"filename"]) >= 1 & is.na(redim)] <- "Raw"
-redim[regexpr('pc', all_results[,"filename"]) >= 1 & is.na(redim)] <- "Perceptron Weight Based Filter"
+redim[regexpr('raw', all_results[,"filename"]) >= 1 & is.na(redim)] <- "raw"
+redim[regexpr('pc', all_results[,"filename"]) >= 1 & is.na(redim)] <- "geneFS2Img"
 redim[is.na(redim)] <- "none"
 
 
@@ -371,7 +371,7 @@ v_dataset = "wt2"
 v_bin = "eqf"
 v_bin_scale = "eqf_qtf"
 v_color_img = "gray"
-v_model = "fc"
+v_model = "cn1d"
 v_taxa = "freq.bug_species"
 v_estop = "estop5"
 v_padding = "no"
@@ -501,7 +501,7 @@ mean(res_internal1$val_acc)
 table(res_internal1[,"model"])
 table(res_external1[,"representation"])
 
-#		cn1d:wt2d####
+#		cnn and fc:wt2d####
 #set condition to filter the results:
 #set condition:
 res_external1=list()
@@ -510,7 +510,7 @@ v_dataset = "wt2"
 v_bin = "eqw"
 v_bin_scale = "eqw_qtf"
 v_color_img = "gray"
-v_model = "cn1d"
+v_model = c("cnn_l1f64","fc")
 v_taxa = "freq.bug_species"
 v_estop = "estop5"
 v_padding = "no"
@@ -529,7 +529,7 @@ res_internal1 = all_results_combined[ all_results_combined$type_evaluate == "int
                                       #all_results_combined$dataset== v_dataset
                                       #   all_results_combined$color_img== v_color_img 
                                       
-                                      &  all_results_combined$model== v_model
+                                      &  all_results_combined$model %in% v_model
                                       
                                       # &  all_results_combined$bin_scale==v_bin_scale 
                                       #  all_results_combined$taxa == v_taxa & all_results_combined$estop == v_estop & 
@@ -584,12 +584,21 @@ max_value = max(max(res_internal1$train_acc),max(res_internal1$val_acc),y_signif
 #the chart of training performance
 res_internal1 <- res_internal1[!is.na(res_internal1$dataset),]
 names(mean_values)[1] <- 'dataset'
+names(mean_values)[1] <- 'dataset'
+#mean_values_val <- mean_values[,c("dataset","val_acc")]
+names(mean_values)[2] <- "model"
 p1 = 
-  ggplot(data=res_internal1, aes(x=dataset, y=train_acc, fill=dataset)) + geom_boxplot() +
+  ggplot(data=res_internal1, aes(x=dataset, y=train_acc, fill=model)) + geom_boxplot() +
   stat_summary(fun.y=mean, colour="black", geom="point", 
-               shape=4, size=3) +
+          position = position_jitterdodge(),shape=4, size=3) +
+  theme(
+    legend.title = element_text(size = 18),
+    legend.text = element_text(size = 16)
+  ) +
+  theme(axis.text=element_text(size=16),
+        axis.title=element_text(size=16,face="bold")) #+
   #ggtitle(paste("Training on ",title_chart))  +
-  geom_text(data =  mean_values[,c("dataset","train_acc")], aes(label = train_acc, y = train_acc - 0.05)) +
+  #geom_text(data =  mean_values[,c("dataset","model","train_acc")], aes(label = round(train_acc,3), y = train_acc - 0.045), size=5) +
   
   # geom_text(data = means_train, aes(label = train_acc, y = train_acc - 0.05)) +
   #sinificant
@@ -603,17 +612,22 @@ p1 =
 #testing and external, significant results
 
 
-names(mean_values)[1] <- 'dataset'
-#mean_values_val <- mean_values[,c("dataset","val_acc")]
+
 p2 = 
-  ggplot(data=res_internal1, aes(x=dataset, y=val_acc, fill=dataset))+
+  ggplot(data=res_internal1, aes(x=dataset, y=val_acc, fill=model))+
+  theme(axis.text=element_text(size=16),
+        axis.title=element_text(size=16,face="bold"))+
+  theme(
+    legend.title = element_text(size = 18),
+    legend.text = element_text(size = 16)
+  ) +
   # ggtitle(paste("Testing on ",title_chart))+ 
   geom_boxplot() +
   # stat_summary(fun.y=mean, colour="darkred", geom="point", shape=18, size=3)   +
   stat_summary(fun.y=mean, colour="black", geom="point", 
-               shape=4, size=3) +
+               position = position_jitterdodge(),shape=4, size=3)#+
   #ggtitle(paste("Test on ",title_chart))  +
-  geom_text(data =  mean_values[,c("dataset","val_acc")], aes(label = val_acc, y = val_acc - 0.05)) +
+  #geom_text(data =  mean_values[,c("dataset","model","val_acc")], aes(label = round(val_acc,3),y = val_acc - 0.053), size=5) +
   #external+mean
   #geom_point(data=val_int_ext, size = 3,fill="black",
   #          aes(x=representation, y=value, shape = type_evaluate ))+
