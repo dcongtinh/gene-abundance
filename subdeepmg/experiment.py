@@ -1877,7 +1877,8 @@ def reduce_dim (options,prefix_file_log, seed_value, index, train_x, val_x, v_da
 		except:
 			transformer = PCA(n_components=options.new_dim, svd_solverstr = 'auto')
 		train_x = transformer.fit_transform(train_x)
-		#val_x = transformer.transform(val_x)    
+		#val_x = transformer.transform(val_x)
+
 	elif options.algo_redu == 'fa': # FeatureAgglomeration
 		transformer = FeatureAgglomeration(n_clusters=options.new_dim)
 		train_x = transformer.fit_transform(train_x)
@@ -1887,14 +1888,11 @@ def reduce_dim (options,prefix_file_log, seed_value, index, train_x, val_x, v_da
 		transformer = MDS(n_components=options.new_dim)
 		# transformer = MDS(n_components=options.new_dim, n_init=32, max_iter=1024, metric=True, n_jobs=4, random_state=2020)
 		train_x = transformer.fit_transform(train_x)
-		print(train_x.shape)
 		#val_x = transformer.transform(val_x)
 
 	elif options.algo_redu == 'ica': # MultiDimensional Scaling #not working
 		transformer = FastICA(n_components=options.new_dim)
 		train_x = transformer.fit_transform(train_x)
-		print("shape of data=" + str(train_x))
-		# train_x = FastICA.inverse_transform(train_x)
 		#val_x = transformer.transform(val_x)
 
 	elif options.algo_redu == 'bfe': # Backward Feature Elimination #not working # in essence, it works, but case sensitive
@@ -1903,12 +1901,8 @@ def reduce_dim (options,prefix_file_log, seed_value, index, train_x, val_x, v_da
 		train_x = transformer.fit_transform(train_x)
 
 	elif options.algo_redu == 'faa': # FactorAnalysis
-		print('FactorAnalysis')
-		print(train_x.shape)
 		transformer = FactorAnalysis(n_components=options.new_dim)
 		train_x = transformer.fit_transform(train_x)
-		print(train_x)
-		print("shape of data=" + str(train_x.shape))
 		#val_x = transformer.transform(val_x)
 	
 	elif options.algo_redu == 'svd': # Singular Value Decomposition
@@ -1951,7 +1945,7 @@ def reduce_dim (options,prefix_file_log, seed_value, index, train_x, val_x, v_da
 		# use low variance filter, lvf for short
 		train_x, val_x = lowVarianceFilter(train_x, val_x, options.new_dim)
 		blIsUsedPhucFSM = True
-	elif options.algo_redu == 'pc':
+	elif options.algo_redu == 'pwbf':
 		train_x, val_x = perceptronCheat(train_x, val_x, options.new_dim, train_y, options.log_file)
 		blIsUsedPhucFSM = True
 	elif options.algo_redu == 'fval': # Anova FValue filter

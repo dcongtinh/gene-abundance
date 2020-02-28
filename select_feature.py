@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import json
 import numpy as np
 MAX_FEATURE = 576
-INPUT_FILE = 'sample.txt'
+INPUT_FILE = '/Users/dcongtinh/gene-abundance/experiment/results/fc_model_with_feature_selected/qtf_pc576_10_fillseqf_nb10_auy_gray/feature_selected_cirgene.txt'
 
 def read():
 	f=open(INPUT_FILE, 'r')
