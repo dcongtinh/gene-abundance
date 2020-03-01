@@ -7,7 +7,7 @@
 #path_r = "/data/projects/deepmg/analyses/analyze_res/"
 if (Sys.info()['sysname'] == "Darwin"){
   #path_machine = "/Users/dcongtinh/gene-abundance/experiment/results/excute_time"
-  path_machine = "/Users/dcongtinh/gene-abundance/experiment/results/both"
+  path_machine = "/Users/dcongtinh/gene-abundance/experiment/results/fc_model/qtf_pc576_10_fillseqf_nb10_auy_gray"
 }else{
   path_machine = "/data/projects/deepmg/"
 } 
@@ -371,7 +371,7 @@ v_dataset = "wt2"
 v_bin = "eqf"
 v_bin_scale = "eqf_qtf"
 v_color_img = "gray"
-v_model = "cn1d"
+v_model = "fc"
 v_taxa = "freq.bug_species"
 v_estop = "estop5"
 v_padding = "no"
